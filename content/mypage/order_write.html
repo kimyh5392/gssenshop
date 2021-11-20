@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="/content/assets/css/default.css">
+		<link rel="stylesheet" href="/content/assets/css/mypage.css">
+		<link rel="stylesheet" href="/content/assets/fontello/css/fontello.css">
+		<title>gssenshop</title>
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+				<h1 class="logo">
+				    <a href="/content/">
+				        <img src="/content/assets/images/logo.png" alt="">
+				    </a>
+				</h1>
+				<div class="quick-menu">
+                    <div class="category">
+                        <ul>
+                            <li><a href="/content/about/about.html">ABOUT US</a></li>
+                            <li>
+                                <a href="/content/shop/product_list.html">SHOP</a>
+                                <!--<ul>
+                                    <li><a href="#">menu1</a></li>
+                                    <li><a href="#">menumenu2</a></li>
+                                    <li><a href="#">menu-3</a></li>
+                                    <li><a href="#">menu--4</a></li>
+                                </ul>-->
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search-area">
+						<div class="form-group">
+							<div>
+								<input type="text" class="form-control">
+								<div class="btn-area">
+									<button type="button" class="btn-search">
+										<i class="icon-search"></i>
+									</button>
+									<button type="submit" class="btn-cancel">
+										<i class="icon-cancel"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="btn-search-open">
+							<i class="icon-search"></i>
+						</button>
+                    </div>
+                    <div class="basket">
+                        <a href="/content/mypage/basket_list.html" class="btn-basket">
+                            <i class="icon-shopping-bag"></i>
+                        </a>
+                    </div>
+				    <div class="btn-area">
+				        <button type="button" class="btn-nav">
+				            <i class="icon-menu-1"></i>
+				        </button>
+				    </div>
+				</div>
+			</div>
+		</header>
+		
+		<!-- nav -->
+		<nav id="nav">
+			<div class="backdrop"></div>
+			<!--<div class="nav-content type-1">
+				<div class="nav-head">
+					<ul>
+						<li><a href="/content/member/login.html">로그인</a></li>
+					</ul>
+					<button type="button" class="btn-nav-close">
+						<i class="icon-cancel"></i>
+					</button>
+				</div>
+				<div class="nav-body">
+					<ul>
+						<li><a href="/content/about/about.html">ABOUT US</a></li>
+						<li><a href="/content/shop/product_list.html">SHOP</a></li>
+					</ul>
+					<hr>
+					<ul>
+						<li><a href="/content/board/notice_list.html">공지사항</a></li>
+						<li><a href="/content/board/qna_list.html">상품 Q&amp;A</a></li>
+						<li><a href="/content/board/review_list.html">리뷰</a></li>
+						<li><a href="/content/board/membership_list.html">멤버십</a></li>
+					</ul>
+				</div>
+			</div>-->
+			<div class="nav-content type-2">
+				<div class="nav-head">
+					<div class="top">
+						<p class="user"><b>홍길동님</b> 님</p>
+						<a href="#">Logout</a>
+					</div>
+					<ul>
+						<li><a href="/content/mypage/order_list.html">주문조회</a></li>
+						<li><a href="/content/member/modify.html">회원정보</a></li>
+						<li><a href="/content/mypage/my_shopping.html">마이쇼핑</a></li>
+					</ul>
+					<button type="button" class="btn-nav-close">
+						<i class="icon-cancel"></i>
+					</button>
+				</div>
+				<div class="my-content">
+					<div class="my-assets">
+						<dl>
+							<dt>내 쿠폰</dt>
+							<dd>
+								<ul>
+									<!--<li>
+										<a href="#">
+											<dl>
+												<dt>적립금</dt>
+												<dd>0원</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>예치금</dt>
+												<dd>0원</dd>
+											</dl>
+										</a>
+									</li>-->
+									<li>
+										<a href="/content/mypage/coupon.html">
+											<dl>
+												<dt>쿠폰</dt>
+												<dd>1개</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+					<div class="my-order">
+						<dl>
+							<dt>내 주문현황</dt>
+							<dd>
+								<ul>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>입금전</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>배송준비중</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>배송중</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>배송완료</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>취소</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>교환</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>반품</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="nav-body">
+					<ul>
+						<li><a href="/content/board/notice_list.html">공지사항</a></li>
+						<li><a href="/content/board/qna_list.html">상품 Q&amp;A</a></li>
+						<li><a href="/content/board/review_list.html">리뷰</a></li>
+						<li><a href="/content/board/membership_list.html">멤버십</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Content -->
+		<main id="content">
+            <section class="basket-list order-write">
+                <div class="container">
+                    <div class="section-header">
+                        <h3>주문서 작성</h3>
+                    </div>
+                    <div class="section-content">
+                        <div class="table-wrap">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>이미지</th>
+                                        <th>상품정보</th>
+                                        <th>판매가</th>
+                                        <th>수량</th>
+                                        <th>배송구분</th>
+                                        <th>배송비</th>
+                                        <th>합계</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a href="#">
+                                                <figure>
+                                                    <img src="/content/assets/images/main/img_product_sm.jpg" alt="">
+                                                </figure>
+                                            </a>
+                                        </td>
+                                        <td class="subject">
+                                            <a href="#">
+                                                <b>생활도감 치약</b>
+                                                <span>[옵션: 치약 Pine mint]</span>
+                                                <div class="info">
+                                                    <ul>
+                                                        <li>
+                                                            <dl>
+                                                                <dt>판매가</dt>
+                                                                <dd>3500원</dd>
+                                                            </dl>
+                                                        </li>
+                                                        <li>
+                                                            <dl>
+                                                                <dt>배송비</dt>
+                                                                <dd>무료</dd>
+                                                            </dl>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </a>
+                                            <div class="control-box">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" value="1">
+                                                    <button type="button" class="btn-up">
+                                                        <i class="icon-up-micro"></i>
+                                                    </button>
+                                                    <button type="button" class="btn-down">
+                                                        <i class="icon-down-micro"></i>
+                                                    </button>
+                                                </div>
+                                                <button type="button" class="btn-exchange">변경</button>
+                                            </div>
+                                        </td>
+                                        <td><b>3500원</b></td>
+                                        <td>
+                                            <div class="control-box">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" value="1">
+                                                    <button type="button" class="btn-up">
+                                                        <i class="icon-up-micro"></i>
+                                                    </button>
+                                                    <button type="button" class="btn-down">
+                                                        <i class="icon-down-micro"></i>
+                                                    </button>
+                                                </div>
+                                                <button type="button" class="btn-exchange">변경</button>
+                                            </div>
+                                        </td>
+                                        <td>기본배송</td>
+                                        <td>무료</td>
+                                        <td><b>3,500원</b></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="sum-area">
+                                <p>총 상품합계 금액 7,500원 + 배송비 2,500원 = <b>결제예정금액 <span>10,000</span>원</b></p>
+                                <p>상품금액 8,000원 + 할인금액 500원 + 배송비 2,500원 = <b>결제예정금액 <span>10,000</span>원</b></p>
+                            </div>
+                            <div class="btn-area">
+                                <a href="#" class="btn btn-del">선택삭제</a>
+                                <a href="#" class="btn btn-prev">이전페이지</a>
+                            </div>
+                        </div>
+                        <article class="delivery-info">
+                            <h4>배송 정보</h4>
+                            <div class="article-content">
+                                <table class="table type-1">
+                                    <tbody>
+                                        <tr>
+                                            <th class="top">배송지 선택</th>
+                                            <td>
+                                                <label><input type="radio" checked> 회원 정보와 동일</label>
+                                                <label><input type="radio" checked> 새로운 배송지</label>
+                                                <a href="javascript:openWindowPop('/content/mypage/add_addr.html', 'popup');" class="btn-addr">내 주소록 보기</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="essential">받으시는 분</th>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="essential top">주소</th>
+                                            <td class="addr">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="우편번호">
+                                                    <button type="button" class="btn-addr">주소검색</button>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="기본주소">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="나머지 주소 (선택 입력 가능)">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="essential">휴대전화</th>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="essential top">이메일</th>
+                                            <td class="email">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control"> <span>@</span>
+                                                    <input type="text" class="form-control">
+                                                    <select>
+                                                        <option>이메일 선택</option>
+                                                        <option>naver.com</option>
+                                                        <option>daum.net</option>
+                                                        <option>nate.com</option>
+                                                        <option>hotmail.com</option>
+                                                        <option>yahoo.com</option>
+                                                        <option>empas.com</option>
+                                                        <option>korea.com</option>
+                                                        <option>dreamwiz.com</option>
+                                                        <option>gmail.com</option>
+                                                        <option>직접입력</option>
+                                                    </select>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="top">배송메시지</th>
+                                            <td>
+                                                <div class="form-group">
+                                                    <textarea class="form-control"></textarea>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="benefit">
+                            <h4>할인혜택</h4>
+                            <div class="article-content">
+                                <table class="table type-1">
+                                    <tbody>
+                                        <tr>
+                                            <th>쿠폰할인</th>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control"> <span>원</span>
+                                                    <a href="javascript:openWindowPop('/content/mypage/benefit.html', 'popup');" class="btn-benefit">쿠폰 조회 및 적용</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>포인트 할인</th>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control"> <span>원</span>
+                                                    <label><input type="checkbox"> 모두 사용<br> (보유 포인트: <b>1,110P</b> /1P=1원)</label>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="pay-type">
+                            <h4>결제수단</h4>
+                            <div class="article-content">
+                                <div class="tab">
+                                    <ul>
+                                        <li><label class="tab-1"><input type="radio" checked name="p-type"> 카드 결제</label></li>
+                                        <li><label class="tab-2"><input type="radio" name="p-type"> 에스크로(실시간 계좌이체)</label></li>
+                                        <li><label class="tab-3"><input type="radio" name="p-type"> 에스크로(가상계좌)</label></li>
+                                        <li><label class="tab-4"><input type="radio" name="p-type"> 무통장 입금</label></li>
+                                        <li><label class="tab-5"><input type="radio" name="p-type"> 휴대폰 결제</label></li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="card active">
+                                        <h5>카드 결제</h5>
+                                        <p>소액 결제의 경우 PG사 정책에 따라 결제 금액 제한이 있을 수 있습니다.</p>
+                                    </div>
+                                    <div class="account-transfer1">
+                                        <h5>에스크로(실시간 계좌이체)</h5>
+                                        <table class="table type-1">
+                                            <tbody>
+                                                <tr>
+                                                    <th>예금주명</th>
+                                                    <td>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th></th>
+                                                    <td>
+                                                        <label><input type="checkbox"> 에스크로(구매안전)서비스를 적용합니다.</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="top">현금영수증</th>
+                                                    <td>
+                                                        <label><input type="radio"> 현금영수증 신청</label>
+                                                        <label><input type="radio"> 신청안함</label>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="account-transfer2">
+                                        <h5>에스크로(가상계좌)</h5>
+                                        <table class="table type-1">
+                                            <tbody>
+                                                <tr>
+                                                    <th></th>
+                                                    <td>
+                                                        <label><input type="checkbox"> 에스크로(구매안전)서비스를 적용합니다.</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="top">현금영수증</th>
+                                                    <td>
+                                                        <label><input type="radio"> 현금영수증 신청</label>
+                                                        <label><input type="radio"> 신청안함</label>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="deposit">
+                                        <h5>무통장 입금</h5>
+                                        <table class="table type-1">
+                                            <tbody>
+                                                <tr>
+                                                    <th>입금자명</th>
+                                                    <td>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>입금은행</th>
+                                                    <td>
+                                                        <div class="form-group">
+                                                            <select class="form-control">
+                                                                <option>은행을 선택해 주세요.</option>
+                                                                <option>OO은행 : 000-0000-00-000 주식회사 OOOO</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="top">현금영수증</th>
+                                                    <td>
+                                                        <label><input type="radio"> 현금영수증 신청</label>
+                                                        <label><input type="radio"> 신청안함</label>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="phone-pay">
+                                        <h5>휴대폰 결제</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="total-pay">
+                            <h4>결제예정금액</h4>
+                            <div class="article-content">
+                                <table class="total">
+                                    <thead>
+                                        <tr>
+                                            <th>총 상품가격</th>
+                                            <th></th>
+                                            <th>배송비</th>
+                                            <th>최종 결제 금액</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>37,000<small>원</small></td>
+                                            <td>+</td>
+                                            <td>0<small>원</small></td>
+                                            <td>37,000<small>원</small></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table type-1">
+                                    <tbody>
+                                        <tr>
+                                            <th>총 할인금액</th>
+                                            <td><b>0</b><small>원</small></td>
+                                        </tr>
+                                        <tr>
+                                            <th>쿠폰할인</th>
+                                            <td>쿠폰적용</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </article>
+                        <div class="btn-total">
+                            <dl>
+                                <dt>최종결제 금액</dt>
+                                <dd>37,000원</dd>
+                            </dl>
+                            <button type="button" class="btn-pay">결제하기</button>
+                            <label><input type="checkbox"> 결제정보를 확인하였으며, 구매진행에 동의합니다.</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+		</main>
+		
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="container">
+				<h2><img src="/content/assets/images/logo.png" alt=""></h2>
+				<div class="terms">
+					<ul>
+						<li><a href="/content/policy/agreement.html">이용약관</a></li>
+						<li><a href="/content/policy/privacy.html">개인정보처리방침</a></li>
+						<li><a href="/content/policy/guide.html">이용안내</a></li>
+						<li><a href="#">사업자정보확인</a></li>
+					</ul>
+				</div>
+				<div class="information">
+					<ul>
+						<li>
+							<dl>
+								<dt>법인명(상호)</dt>
+								<dd>GSSENSHOP</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>대표자(성명)</dt>
+								<dd>홍길동</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>사업자 등록번호 안내</dt>
+								<dd>000-00-00000</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>통신판매업 신고</dt>
+								<dd>제 0000-서울강남-0000 호</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>전화번호</dt>
+								<dd><a href="tel:16000000">1600-0000</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>주소</dt>
+								<dd><address>00000 서울특별시 ㅇㅇ구 ㅇㅇㅇ0길 00</address></dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<p class="copyright">Copyright © GSSENSHOP. All rights reserved.</p>
+			</div>
+		</footer>
+		
+		<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+		<script src='/content/assets/js/common.js'></script>
+		<script>
+			// 팝업관련
+            function openWindowPop(url, name){
+                var options = 'top=10, left=10, width=1000, height=600px, status=no, menubar=no, toolbar=no, resizable=no';
+                window.open(url, name, options);
+            }
+			(function($){
+                $(document).on('click', '.tab-1', function(){
+                    $('.tab-content > div').removeClass('active');
+                    $('.tab-content > .card').addClass('active');
+                });
+                $(document).on('click', '.tab-2', function(){
+                    $('.tab-content > div').removeClass('active');
+                    $('.tab-content > .account-transfer1').addClass('active');
+                });
+                $(document).on('click', '.tab-3', function(){
+                    $('.tab-content > div').removeClass('active');
+                    $('.tab-content > .account-transfer2').addClass('active');
+                });
+                $(document).on('click', '.tab-4', function(){
+                    $('.tab-content > div').removeClass('active');
+                    $('.tab-content > .deposit').addClass('active');
+                });
+                $(document).on('click', '.tab-5', function(){
+                    $('.tab-content > div').removeClass('active');
+                    $('.tab-content > .phone-pay').addClass('active');
+                });
+			})(jQuery);
+		</script>
+	</body>
+</html>

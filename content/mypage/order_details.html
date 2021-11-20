@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="/content/assets/css/default.css">
+		<link rel="stylesheet" href="/content/assets/css/mypage.css">
+		<link rel="stylesheet" href="/content/assets/fontello/css/fontello.css">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<title>gssenshop</title>
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+				<h1 class="logo">
+				    <a href="/content/">
+				        <img src="/content/assets/images/logo.png" alt="">
+				    </a>
+				</h1>
+				<div class="quick-menu">
+                    <div class="category">
+                        <ul>
+                            <li><a href="/content/about/about.html">ABOUT US</a></li>
+                            <li>
+                                <a href="/content/shop/product_list.html">SHOP</a>
+                                <!--<ul>
+                                    <li><a href="#">menu1</a></li>
+                                    <li><a href="#">menumenu2</a></li>
+                                    <li><a href="#">menu-3</a></li>
+                                    <li><a href="#">menu--4</a></li>
+                                </ul>-->
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search-area">
+						<div class="form-group">
+							<div>
+								<input type="text" class="form-control">
+								<div class="btn-area">
+									<button type="button" class="btn-search">
+										<i class="icon-search"></i>
+									</button>
+									<button type="submit" class="btn-cancel">
+										<i class="icon-cancel"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="btn-search-open">
+							<i class="icon-search"></i>
+						</button>
+                    </div>
+                    <div class="basket">
+                        <a href="/content/mypage/basket_list.html" class="btn-basket">
+                            <i class="icon-shopping-bag"></i>
+                        </a>
+                    </div>
+				    <div class="btn-area">
+				        <button type="button" class="btn-nav">
+				            <i class="icon-menu-1"></i>
+				        </button>
+				    </div>
+				</div>
+			</div>
+		</header>
+		
+		<!-- nav -->
+		<nav id="nav">
+			<div class="backdrop"></div>
+			<!--<div class="nav-content type-1">
+				<div class="nav-head">
+					<ul>
+						<li><a href="/content/member/login.html">로그인</a></li>
+					</ul>
+					<button type="button" class="btn-nav-close">
+						<i class="icon-cancel"></i>
+					</button>
+				</div>
+				<div class="nav-body">
+					<ul>
+						<li><a href="/content/about/about.html">ABOUT US</a></li>
+						<li><a href="/content/shop/product_list.html">SHOP</a></li>
+					</ul>
+					<hr>
+					<ul>
+						<li><a href="/content/board/notice_list.html">공지사항</a></li>
+						<li><a href="/content/board/qna_list.html">상품 Q&amp;A</a></li>
+						<li><a href="/content/board/review_list.html">리뷰</a></li>
+						<li><a href="/content/board/membership_list.html">멤버십</a></li>
+					</ul>
+				</div>
+			</div>-->
+			<div class="nav-content type-2">
+				<div class="nav-head">
+					<div class="top">
+						<p class="user"><b>홍길동님</b> 님</p>
+						<a href="#">Logout</a>
+					</div>
+					<ul>
+						<li><a href="/content/mypage/order_list.html">주문조회</a></li>
+						<li><a href="/content/member/modify.html">회원정보</a></li>
+						<li><a href="/content/mypage/my_shopping.html">마이쇼핑</a></li>
+					</ul>
+					<button type="button" class="btn-nav-close">
+						<i class="icon-cancel"></i>
+					</button>
+				</div>
+				<div class="my-content">
+					<div class="my-assets">
+						<dl>
+							<dt>내 쿠폰</dt>
+							<dd>
+								<ul>
+									<!--<li>
+										<a href="#">
+											<dl>
+												<dt>적립금</dt>
+												<dd>0원</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>예치금</dt>
+												<dd>0원</dd>
+											</dl>
+										</a>
+									</li>-->
+									<li>
+										<a href="/content/mypage/coupon.html">
+											<dl>
+												<dt>쿠폰</dt>
+												<dd>1개</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+					<div class="my-order">
+						<dl>
+							<dt>내 주문현황</dt>
+							<dd>
+								<ul>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>입금전</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>배송준비중</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>배송중</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>배송완료</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>취소</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>교환</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>반품</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="nav-body">
+					<ul>
+						<li><a href="/content/board/notice_list.html">공지사항</a></li>
+						<li><a href="/content/board/qna_list.html">상품 Q&amp;A</a></li>
+						<li><a href="/content/board/review_list.html">리뷰</a></li>
+						<li><a href="/content/board/membership_list.html">멤버십</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Content -->
+		<main id="content">
+			<section class="order-list order-details">
+			    <div class="container">
+			        <div class="section-header">
+			            <h3>주문 / 배송 상세조회</h3>
+			        </div>
+			        <div class="section-content">
+			        	<div class="order-num">
+                        	<dl>
+                        		<dt>주문번호</dt>
+                        		<dd>K13</dd>
+                        	</dl>
+                        	<dl>
+                        		<dt>주문일자</dt>
+                        		<dd>2021-10-14 19:24:31</dd>
+                        	</dl>
+                        </div>
+                        <article>
+                        	<h4>배송지 1</h4>
+                        	<table class="table type-2">
+                        		<tbody>
+                        			<tr>
+                        				<th>받으시는 분</th>
+                        				<td>명준민</td>
+                        			</tr>
+                        			<tr>
+                        				<th>휴대폰번호</th>
+                        				<td>010-0000-0000</td>
+                        			</tr>
+                        			<tr>
+                        				<th>전화번호</th>
+                        				<td>010-0000-0000</td>
+                        			</tr>
+                        			<tr>
+                        				<th>배송시 요구사항</th>
+                        				<td></td>
+                        			</tr>
+                        			<tr>
+                        				<th>배송지</th>
+                        				<td>(32731) 충남 금산군 금산읍 비호산로 57 (삼호아파트) 우리집</td>
+                        			</tr>
+                        		</tbody>
+                        	</table>
+                        	<div class="table-wrap">
+                                <h4>주문 상품 정보</h4>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>주문일자<br>[주문번호]</th>
+                                            <th>이미지</th>
+                                            <th>상품정보</th>
+                                            <th>수량</th>
+                                            <th>상품구매금액</th>
+                                            <th>주문처리상태</th>
+                                            <th>취소/교환/반품</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <span class="date">2021-08-28</span>
+                                                <a href="/content/mypage/order_details.html" class="num">[20210828-0000017]</a>
+                                            </td>
+                                            <td>
+                                                <a href="#">
+                                                    <img src="/content/assets/images/main/img_product_sm.jpg" alt="">
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="#">
+                                                    <b>생활도감 칫솔</b>
+                                                    <p>[옵션: 칫솔 1개(화이트)]</p>
+                                                    <div class="info">
+                                                        <ul>
+                                                            <li>
+                                                                <dl>
+                                                                    <dt>수량</dt>
+                                                                    <dd>1개</dd>
+                                                                </dl>
+                                                            </li>
+                                                            <li>
+                                                                <dl>
+                                                                    <dt>금액</dt>
+                                                                    <dd>2,500원</dd>
+                                                                </dl>
+                                                            </li>
+                                                            <li>
+                                                                <dl>
+                                                                    <dt>상태</dt>
+                                                                    <dd>배송준비중</dd>
+                                                                </dl>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </a>
+                                                <div class="btn-area">
+                                                    <a href="#" class="btn btn-white">배송 추적</a>
+                                                    <a href="#" class="btn btn-white">구매 확정</a>
+                                                    <a href="/content/mypage/order_cancel.html" class="btn btn-cancel btn-gray">취소 신청</a>
+                                                    <a href="/content/mypage/exchange.html" class="btn btn-exchange btn-gray">교환 신청</a>
+                                                </div>
+                                            </td>
+                                            <td>1</td>
+                                            <td>2,500원</td>
+                                            <td><p class="state">배송준비중</p></td>
+                                            <td>
+                                                <div class="btn-area">
+                                                    <p>배송중</p>
+                                                    <p>로젠택배</p>
+                                                    <p>123456</p>
+                                                    <a href="#" class="btn btn-white">배송 추적</a>
+                                                    <a href="#" class="btn btn-white">구매 확정</a>
+                                                    <a href="/content/mypage/order_cancel.html" class="btn btn-cancel btn-gray">취소 신청</a>
+                                                    <a href="/content/mypage/exchange.html" class="btn btn-exchange btn-gray">교환 신청</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <nav class="pagination">
+                                    <ul>
+                                        <li class="first"><a href="#"><i class="icon-angle-double-left"></i></a></li>
+                                        <li class="prev"><a href="#"><i class="icon-angle-left"></i></a></li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li class="next"><a href="#"><i class="icon-angle-right"></i></a></li>
+                                        <li class="last"><a href="#"><i class="icon-angle-double-right"></i></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </article>
+                        <article>
+                        	<h4>결제 정보</h4>
+                        	<table class="table type-2 border">
+                        		<tbody>
+                        			<tr>
+                        				<th>주문금액</th>
+                        				<td>1,000원</td>
+                        				<td>상품 금액 1,000원 + 배송비 0원</td>
+                        			</tr>
+                        			<tr>
+                        				<th>할인금액</th>
+                        				<td>0원</td>
+                        				<td>상품할일 0원</td>
+                        			</tr>
+                        			<tr>
+                        				<th>배송비</th>
+                        				<td>0원</td>
+                        				<td></td>
+                        			</tr>
+                        			<tr>
+                        				<th>총 결제금액</th>
+                        				<td><b>1,000원</b></td>
+                        				<td></td>
+                        			</tr>
+                        		</tbody>
+                        	</table>
+                        </article>
+                        <article>
+                        	<h4>결제 수단</h4>
+                        	<table class="table type-2">
+                        		<tbody>
+                        			<tr>
+                        				<th>결제방식</th>
+                        				<td>신용카드</td>
+                        			</tr>
+                        			<tr>
+                        				<th>결제금액</th>
+                        				<td>1, 000원</td>
+                        			</tr>
+                        			<tr>
+                        				<th>결제상태</th>
+                        				<td>결제완료</td>
+                        			</tr>
+                        			<tr>
+                        				<th>결제일</th>
+                        				<td>2021-10-14 19:24:32</td>
+                        			</tr>
+                        		</tbody>
+                        	</table>
+                        </article>
+                        <div class="btn-area">
+                        	<a href="#" class="btn-default">목록</a>
+                        </div>
+			        </div>
+			    </div>
+			</section>
+		</main>
+		
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="container">
+				<h2><img src="/content/assets/images/logo.png" alt=""></h2>
+				<div class="terms">
+					<ul>
+						<li><a href="/content/policy/agreement.html">이용약관</a></li>
+						<li><a href="/content/policy/privacy.html">개인정보처리방침</a></li>
+						<li><a href="/content/policy/guide.html">이용안내</a></li>
+						<li><a href="#">사업자정보확인</a></li>
+					</ul>
+				</div>
+				<div class="information">
+					<ul>
+						<li>
+							<dl>
+								<dt>법인명(상호)</dt>
+								<dd>GSSENSHOP</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>대표자(성명)</dt>
+								<dd>홍길동</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>사업자 등록번호 안내</dt>
+								<dd>000-00-00000</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>통신판매업 신고</dt>
+								<dd>제 0000-서울강남-0000 호</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>전화번호</dt>
+								<dd><a href="tel:16000000">1600-0000</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>주소</dt>
+								<dd><address>00000 서울특별시 ㅇㅇ구 ㅇㅇㅇ0길 00</address></dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<p class="copyright">Copyright © GSSENSHOP. All rights reserved.</p>
+			</div>
+		</footer>
+		
+		<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+		<script src='/content/assets/js/common.js'></script>
+		<script>
+			(function($){
+				
+			})(jQuery);
+		</script>
+	</body>
+</html>

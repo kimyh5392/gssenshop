@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="/content/assets/css/popup.css">
+		<link rel="stylesheet" href="/content/assets/fontello/css/fontello.css">
+		<title>gssenshop</title>
+	</head>
+	<body>
+        <main id="content">
+        	<article class="add-addr">
+				<h3>배송지 목록</h3>
+        		<div class="container">
+					<div class="table-wrap">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>선택</th>
+									<th>주소록 고정</th>
+									<th>배송지명</th>
+									<th>수령인</th>
+									<th>일반전화</th>
+									<th>휴대전화</th>
+									<th>주소</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><input type="radio"></td>
+									<td><a href="#" class="btn-change">고정</a></td>
+									<td>미지정</td>
+									<td>홍길동</td>
+									<td>82-</td>
+									<td>010-0000-0000</td>
+									<td><address>(00000) 서울특별시 ㅇㅇ구 ㅇㅇㅇㅇ9길 00</address></td>
+								</tr>
+								<tr>
+									<td><input type="radio"></td>
+									<td><a href="#" class="btn-change">해제</a></td>
+									<td>미지정</td>
+									<td>홍길동</td>
+									<td>82-</td>
+									<td>010-0000-0000</td>
+									<td><address>(00000) 서울특별시 ㅇㅇ구 ㅇㅇㅇㅇ9길 00</address></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="btn-area">
+							<a href="#" class="btn-default">배송지로 선택</a>
+							<a href="#" class="btn-default">기본 배송지로 설정</a>
+							<a href="javascript:openWindowPop('/content/mypage/addr_write.html', 'popup');" class="btn-addr-write">배송지 추가</a>
+						</div>
+					</div>
+        		</div>
+        	</article>
+        </main>
+        <script>
+			// 팝업관련
+            function openWindowPop(url, name){
+                var options = 'top=10, left=10, width=1000, height=600px, status=no, menubar=no, toolbar=no, resizable=no';
+                window.open(url, name, options);
+            }
+		</script>
+	</body>
+</html>
