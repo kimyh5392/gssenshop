@@ -340,12 +340,10 @@ a, button {
             .shop .container .section-content > ul > li > .item > a > img.visible-lg {
               display: block; }
             .shop .container .section-content > ul > li .details {
-              overflow: hidden;
               text-align: right;
               table-layout: fixed;
               padding: 30px 20px 20px; }
               .shop .container .section-content > ul > li .details h4 {
-                /*float: left;*/
                 font-size: 25px;
                 display: block;
                 vertical-align: top;
