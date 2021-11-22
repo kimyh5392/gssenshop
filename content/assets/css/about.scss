@@ -91,7 +91,7 @@ body {
                         font-weight: 500;
                         line-height: 24px;
                         letter-spacing: -1px;
-                        @include transition($duration: .6s, $timing: ease);
+                        @include transition($duration: 1.2s, $timing: ease);
                     }
                 }
                 &.bottom {
