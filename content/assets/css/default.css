@@ -182,6 +182,10 @@ a, button {
         #header .container .logo {
           width: 160px;
           left: 0; }
+          #header .container .logo > a {
+            width: 100%;
+            height: 22px;
+            background-size: 160px auto; }
         #header .container .quick-menu > div a, #header .container .quick-menu > div button {
           -webkit-transition-property: all;
           transition-property: all;
@@ -606,6 +610,8 @@ body.nav-opened {
       right: 0; }
 body.scrolled #header {
   background-color: #fff; }
+  body.scrolled #header .container .logo > a {
+    background-image: url(/content/assets/images/logo_sub.png); }
   body.scrolled #header .container .quick-menu > div a, body.scrolled #header .container .quick-menu > div button {
     color: #333; }
   body.scrolled #header .container .quick-menu > div.category > ul > li > a {
