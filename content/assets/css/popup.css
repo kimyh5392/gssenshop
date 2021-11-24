@@ -77,6 +77,9 @@ a, button {
   a:hover, button:hover {
     color: #202020; }
 
+html, body {
+  min-width: 980px; }
+
 .add-addr h3 {
   font-size: 16px;
   color: #fff;

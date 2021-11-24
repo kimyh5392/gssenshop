@@ -1,5 +1,9 @@
 @import 'common';
 
+html, body {
+    min-width: 980px;
+}
+
 .add-addr {
 	h3 {
 		font-size: 16px;
