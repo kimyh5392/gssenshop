@@ -690,6 +690,11 @@ body.scrolled #header {
     color: #fff;
     font-weight: 400;
     margin-top: 20px; }
+  #footer .container .certify {
+    margin-top: 20px; }
+    #footer .container .certify img {
+      display: block;
+      margin: 0 auto; }
   @media (min-width: 1024px) {
     #footer {
       text-align: left;
@@ -698,6 +703,10 @@ body.scrolled #header {
         position: relative;
         padding: 0;
         padding-left: 230px; }
+        #footer .container .certify {
+          position: absolute;
+          bottom: -60px;
+          right: 10px; }
         #footer .container h2 {
           position: absolute;
           top: 0;
@@ -740,5 +749,9 @@ body.scrolled #header {
         #footer .container .copyright {
           font-size: 16px;
           margin-top: 30px; } }
+  @media (min-width: 1200px) {
+    #footer .container .certify {
+      right: 0;
+      bottom: 0; } }
 
 /*# sourceMappingURL=default.css.map */
