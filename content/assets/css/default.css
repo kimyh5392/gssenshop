@@ -752,6 +752,6 @@ body.scrolled #header {
   @media (min-width: 1200px) {
     #footer .container .certify {
       right: 0;
-      bottom: 0; } }
+      /*bottom: 0;*/ } }
 
 /*# sourceMappingURL=default.css.map */
