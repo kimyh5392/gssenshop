@@ -1683,4 +1683,104 @@ section {
         .sns-join .container .section-content .btn-area > ul > li ~ li {
           margin-top: 0; } }
 
+/* pw-change */
+.pw-change .container article .article-title {
+  text-align: center;
+  padding: 20px 0 30px; }
+  .pw-change .container article .article-title h4 {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold; }
+  .pw-change .container article .article-title p {
+    font-size: 16px;
+    color: #999;
+    font-weight: 400;
+    margin-top: 10px; }
+.pw-change .container article .article-body {
+  max-width: 640px;
+  margin: 0 auto;
+  border: 1px solid #ccc; }
+  .pw-change .container article .article-body strong {
+    display: block;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #f0f0f0; }
+  .pw-change .container article .article-body .change-form {
+    text-align: left;
+    padding: 20px; }
+    .pw-change .container article .article-body .change-form > ul > li > dl > dt {
+      font-size: 14px;
+      color: #333;
+      font-weight: 500;
+      line-height: 30px; }
+    .pw-change .container article .article-body .change-form > ul > li > dl > dd .form-group .form-control {
+      display: block;
+      width: 100%;
+      padding: 0 10px;
+      color: #333;
+      font-weight: 400;
+      font-size: 12px;
+      height: 35px;
+      border: 1px solid #ccc;
+      border-radius: 5px; }
+    .pw-change .container article .article-body .change-form > ul > li ~ li {
+      margin-top: 10px; }
+    .pw-change .container article .article-body .change-form .btn-area {
+      text-align: center;
+      font-size: 0;
+      margin-top: 30px; }
+      .pw-change .container article .article-body .change-form .btn-area > .btn {
+        display: inline-block;
+        width: 100px;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 5px;
+        margin-right: 10px; }
+        .pw-change .container article .article-body .change-form .btn-area > .btn.btn-change {
+          color: #fff;
+          line-height: 35px;
+          background-color: #eb6100; }
+        .pw-change .container article .article-body .change-form .btn-area > .btn.btn-default {
+          line-height: 33px;
+          border: 1px solid #ddd;
+          background-color: #f9f9f9; }
+@media (min-width: 1024px) {
+  .pw-change .container article .article-title {
+    padding: 60px 0 50px; }
+    .pw-change .container article .article-title h4 {
+      font-size: 24px; }
+    .pw-change .container article .article-title p {
+      font-size: 18px;
+      margin-top: 20px; }
+  .pw-change .container article .article-body strong {
+    font-size: 20px;
+    line-height: 50px; }
+  .pw-change .container article .article-body .change-form {
+    padding: 50px 100px; }
+    .pw-change .container article .article-body .change-form > ul > li > dl {
+      display: table;
+      width: 100%; }
+      .pw-change .container article .article-body .change-form > ul > li > dl > dt {
+        display: table-cell;
+        width: 170px;
+        font-size: 16px;
+        vertical-align: middle; }
+      .pw-change .container article .article-body .change-form > ul > li > dl > dd {
+        display: table-cell;
+        vertical-align: middle; }
+        .pw-change .container article .article-body .change-form > ul > li > dl > dd .form-group .form-control {
+          height: 45px; }
+    .pw-change .container article .article-body .change-form > ul > li ~ li {
+      margin-top: 5px; }
+    .pw-change .container article .article-body .change-form .btn-area {
+      margin-top: 40px; }
+      .pw-change .container article .article-body .change-form .btn-area .btn {
+        width: 160px;
+        font-size: 16px; }
+        .pw-change .container article .article-body .change-form .btn-area .btn.btn-change {
+          line-height: 45px; }
+        .pw-change .container article .article-body .change-form .btn-area .btn.btn-default {
+          line-height: 43px; } }
+
 /*# sourceMappingURL=member.css.map */
