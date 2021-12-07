@@ -286,6 +286,55 @@
                                                 </div>
                                             </dd>
                                         </dl>
+                                        <dl>
+                                            <dt>추가 상품</dt>
+                                            <dd>
+                                                <div class="option-dropdown">
+                                                    <button type="button" class="btn-drop">추가 상품을 선택하세요</button>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">
+                                                                <div class="item">
+                                                                    <figure>
+                                                                        <img src="/content/assets/images/sub/img_slider.jpg" alt="">
+                                                                    </figure>
+                                                                </div>
+                                                                <div class="details">
+                                                                    <p>생약치약</p>
+                                                                    <b>13,000원</b>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <div class="item">
+                                                                    <figure>
+                                                                        <img src="/content/assets/images/sub/img_slider.jpg" alt="">
+                                                                    </figure>
+                                                                </div>
+                                                                <div class="details">
+                                                                    <p>생약치약</p>
+                                                                    <b>13,000원</b>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <div class="item">
+                                                                    <figure>
+                                                                        <img src="/content/assets/images/sub/img_slider.jpg" alt="">
+                                                                    </figure>
+                                                                </div>
+                                                                <div class="details">
+                                                                    <p>생약치약</p>
+                                                                    <b>13,000원</b>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </dd>
+                                        </dl>
                                     </div>
                                     <div class="summary">
                                         <p>최소주문수량 1개 이상</p>
@@ -317,7 +366,7 @@
                                                         <strong>19,900원</strong>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <!--<tr>
                                                     <td>
                                                         <b>생활도감 양치 1인 SET</b>
                                                         <p>- 양치 1인세트+구강스프레이 Mild(+5,400원)</p>
@@ -339,9 +388,63 @@
                                                     <td>
                                                         <strong>19,900원</strong>
                                                     </td>
-                                                </tr>
+                                                </tr>-->
                                             </tbody>
                                         </table>
+                                    </div>
+                                    <div class="add-prize">
+                                        <ul>
+                                            <li>
+                                                <div class="product">
+                                                    <div class="item">
+                                                        <figure>
+                                                            <img src="/content/assets/images/sub/img_slider.jpg" alt="">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p>생약치약</p>
+                                                        <b>13,000원</b>
+                                                    </div>
+                                                </div>
+                                                <div class="control-box">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" value="1">
+                                                        <button type="button" class="btn-up">
+                                                            <i class="icon-up-micro"></i>
+                                                        </button>
+                                                        <button type="button" class="btn-down">
+                                                            <i class="icon-down-micro"></i>
+                                                        </button>
+                                                    </div>
+                                                    <button type="button" class="btn-remove">x</button>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="product">
+                                                    <div class="item">
+                                                        <figure>
+                                                            <img src="/content/assets/images/sub/img_slider.jpg" alt="">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p>생약치약</p>
+                                                        <b>13,000원</b>
+                                                    </div>
+                                                </div>
+                                                <div class="control-box">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" value="1">
+                                                        <button type="button" class="btn-up">
+                                                            <i class="icon-up-micro"></i>
+                                                        </button>
+                                                        <button type="button" class="btn-down">
+                                                            <i class="icon-down-micro"></i>
+                                                        </button>
+                                                    </div>
+                                                    <button type="button" class="btn-remove">x</button>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                     <div class="total">
                                         <dl>
@@ -847,6 +950,11 @@
 		<script src='/content/assets/js/common.js'></script>
 		<script>
 			(function($){
+                // 추가 상품 옵션 관련
+                $(document).on('click', '.option-dropdown > .btn-drop', function(){
+                    $(this).parent().toggleClass('show');
+                });
+                
                 // 상품 슬라이드 관련
                 $('.product-slider > ul').slick({
                     slidesToShow: 1,

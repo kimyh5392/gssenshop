@@ -2877,11 +2877,13 @@ body.reason-modal .modal-reason {
       top: 10px;
       left: 0;
       width: 30px;
+      color: #4881f1;
       line-height: 26px;
       font-weight: bold;
       text-align: center;
       content: 'Q.'; }
   .faq .container .section-content > .faq-list > li .answer {
+    position: relative;
     overflow: hidden;
     height: 0;
     transform-origin: top;
@@ -2896,7 +2898,7 @@ body.reason-modal .modal-reason {
     transition-delay: 0s;
     border-top: 1px solid #ccc;
     background-color: #eaeaea; }
-    .faq .container .section-content > .faq-list > li .answer p {
+    .faq .container .section-content > .faq-list > li .answer > div {
       position: relative;
       display: block;
       font-size: 16px;
@@ -2904,7 +2906,7 @@ body.reason-modal .modal-reason {
       line-height: 26px;
       font-weight: 500;
       padding: 10px 15px 10px 30px; }
-      .faq .container .section-content > .faq-list > li .answer p:before {
+      .faq .container .section-content > .faq-list > li .answer > div:before {
         position: absolute;
         top: 10px;
         left: 0;
@@ -2912,7 +2914,8 @@ body.reason-modal .modal-reason {
         line-height: 26px;
         font-weight: bold;
         text-align: center;
-        content: 'A.'; }
+        content: 'A.';
+        color: #eb3600; }
   .faq .container .section-content > .faq-list > li.active > .answer {
     height: auto;
     transform: scaleY(1); }
@@ -2932,11 +2935,11 @@ body.reason-modal .modal-reason {
       width: 60px;
       line-height: 30px;
       text-align: center; }
-  .faq .container .section-content .faq-list > li > .answer p {
+  .faq .container .section-content .faq-list > li > .answer > div {
     font-size: 18px;
     line-height: 30px;
     padding: 30px 20px 30px 60px; }
-    .faq .container .section-content .faq-list > li > .answer p:before {
+    .faq .container .section-content .faq-list > li > .answer > div:before {
       top: 30px;
       width: 60px;
       line-height: 30px;
