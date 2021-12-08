@@ -2898,6 +2898,9 @@ body.reason-modal .modal-reason {
     transition-delay: 0s;
     border-top: 1px solid #ccc;
     background-color: #eaeaea; }
+    .faq .container .section-content > .faq-list > li .answer img {
+      display: block;
+      max-width: 100%; }
     .faq .container .section-content > .faq-list > li .answer > div {
       position: relative;
       display: block;

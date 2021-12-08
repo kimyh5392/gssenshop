@@ -904,90 +904,6 @@ body {
                                         border: 1px solid #eaeaea;
                                     }
                                 }
-                                .option-dropdown {
-                                    position: relative;
-                                    > .btn-drop {
-                                        display: block;
-                                        width: 100%;
-                                        font-size: 14px;
-                                        color: #333;
-                                        text-align: left;
-                                        padding: 0 5px;
-                                        border-radius: 3px;
-                                        line-height: 33px;
-                                        border: 1px solid #eaeaea;
-                                        &:after {
-                                            position: relative;
-                                            float: right;
-                                            font-size: 10px;
-                                            font-family: 'fontello';
-                                            content: '\E80E';
-                                        }
-                                    }
-                                    > ul {
-                                        display: none;
-                                        position: absolute;
-                                        top: 100%;
-                                        left: 0;
-                                        max-height: 200px;
-                                        overflow-y: auto;
-                                        width: 100%;
-                                        z-index: 1;
-                                        padding: 5px;
-                                        border: 1px solid #eaeaea;
-                                        border-radius: 3px;
-                                        background-color: #fff;
-                                        > li {
-                                            border-bottom: 1px solid #eaeaea;
-                                            &:last-child {
-                                                border-bottom: 0;
-                                            }
-                                            > a {
-                                                display: table;
-                                                width: 100%;
-                                                padding: 10px;
-                                                > div {
-                                                    display: table-cell;
-                                                    vertical-align: middle;
-                                                    &.item {
-                                                        width: 60px;
-                                                        > figure {
-                                                            img {
-                                                                width: 100%;
-                                                                display: block;
-                                                            }
-                                                        }
-                                                    }
-                                                    &.details {
-                                                        padding-left: 20px;
-                                                        > p {
-                                                            font-size: 14px;
-                                                            color: #333;
-                                                            font-weight: 400;
-                                                        }
-                                                        > b {
-                                                            display: block;
-                                                            font-size: 14px;
-                                                            color: #333;
-                                                            font-weight: bold;
-                                                            margin-top: 20px;
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                    &.show {
-                                        .btn-drop {
-                                            &:after {
-                                                transform: rotate(180deg);
-                                            }
-                                        }
-                                        > ul {
-                                            display: block;
-                                        }
-                                    }
-                                }
                             }
                             & ~ dl {
                                 margin-top: 10px;
@@ -1117,6 +1033,124 @@ body {
                         }
                     }
                     .add-prize {
+                        > dl {
+                            display: table;
+                            width: 100%;
+                            padding: 20px 0;
+                            border-top: 1px solid #ccc;
+                            > dt {
+                                display: table-cell;
+                                width: 85px;
+                                font-size: 14px;
+                                color: #333;
+                                font-weight: 600;
+                                vertical-align: middle;
+                                padding-right: 10px;
+                            }
+                            > dd {
+                                display: table-cell;
+                                vertical-align: middle;
+                                .form-group {
+                                    .form-control {
+                                        display: block;
+                                        width: 100%;
+                                        height: 35px;
+                                        font-size: 14px;
+                                        color: #333;
+                                        font-weight: 400;
+                                        border-radius: 3px;
+                                        border: 1px solid #eaeaea;
+                                    }
+                                }
+                                .option-dropdown {
+                                    position: relative;
+                                    > .btn-drop {
+                                        display: block;
+                                        width: 100%;
+                                        font-size: 14px;
+                                        color: #333;
+                                        text-align: left;
+                                        padding: 0 5px;
+                                        border-radius: 3px;
+                                        line-height: 33px;
+                                        border: 1px solid #eaeaea;
+                                        &:after {
+                                            position: relative;
+                                            float: right;
+                                            font-size: 10px;
+                                            font-family: 'fontello';
+                                            content: '\E80E';
+                                        }
+                                    }
+                                    > ul {
+                                        display: none;
+                                        position: absolute;
+                                        top: 100%;
+                                        left: 0;
+                                        max-height: 200px;
+                                        overflow-y: auto;
+                                        width: 100%;
+                                        z-index: 1;
+                                        padding: 5px;
+                                        border: 1px solid #eaeaea;
+                                        border-radius: 3px;
+                                        background-color: #fff;
+                                        > li {
+                                            border-bottom: 1px solid #eaeaea;
+                                            &:last-child {
+                                                border-bottom: 0;
+                                            }
+                                            > a {
+                                                display: table;
+                                                width: 100%;
+                                                padding: 10px;
+                                                > div {
+                                                    display: table-cell;
+                                                    vertical-align: middle;
+                                                    &.item {
+                                                        width: 60px;
+                                                        > figure {
+                                                            img {
+                                                                width: 100%;
+                                                                display: block;
+                                                            }
+                                                        }
+                                                    }
+                                                    &.details {
+                                                        padding-left: 20px;
+                                                        > p {
+                                                            font-size: 14px;
+                                                            color: #333;
+                                                            font-weight: 400;
+                                                        }
+                                                        > b {
+                                                            display: block;
+                                                            font-size: 14px;
+                                                            color: #333;
+                                                            font-weight: bold;
+                                                            margin-top: 20px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.show {
+                                        .btn-drop {
+                                            &:after {
+                                                transform: rotate(180deg);
+                                            }
+                                        }
+                                        > ul {
+                                            display: block;
+                                        }
+                                    }
+                                }
+                            }
+                            & ~ dl {
+                                margin-top: 10px;
+                            }
+                        }
                         > ul {
                             > li {
                                 position: relative;

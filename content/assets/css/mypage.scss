@@ -3037,6 +3037,10 @@ body {
                         @include transition();
                         border-top: 1px solid #ccc;
                         background-color: #eaeaea;
+                        img {
+                            display: block;
+                            max-width: 100%;
+                        }
                         > div {
                             position: relative;
                             display: block;
