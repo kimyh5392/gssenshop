@@ -2061,51 +2061,55 @@ body.modal-opened {
     background-color: #4a5164; }
 .review-list .container .section-content .table-wrap .table {
   width: 100%;
-  table-layout: fixed;
   border-top: 1px solid #ccc; }
-  .review-list .container .section-content .table-wrap .table thead {
-    display: none; }
-  .review-list .container .section-content .table-wrap .table tbody tr td {
-    display: none;
+  .review-list .container .section-content .table-wrap .table thead tr th {
     font-size: 14px;
     color: #333;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc; }
+    .review-list .container .section-content .table-wrap .table thead tr th:nth-of-type(1) {
+      display: none; }
+    .review-list .container .section-content .table-wrap .table thead tr th:nth-of-type(2) {
+      display: none; }
+  .review-list .container .section-content .table-wrap .table tbody tr td {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
     font-weight: 400;
     padding: 10px 0;
     vertical-align: middle;
     border-bottom: 1px solid #ccc; }
+    .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(1) {
+      display: none; }
+    .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(2) {
+      display: none; }
+    .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(3) {
+      padding: 0 15px; }
+    .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(4) {
+      width: 100px; }
+    .review-list .container .section-content .table-wrap .table tbody tr td > .btn-area {
+      padding: 0; }
+      .review-list .container .section-content .table-wrap .table tbody tr td > .btn-area .btn-default {
+        width: 100px;
+        line-height: 28px;
+        font-size: 14px;
+        color: #333;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 5px;
+        border: 1px solid #ccc; }
+    .review-list .container .section-content .table-wrap .table tbody tr td img {
+      display: block;
+      width: 70px;
+      margin: 0 auto; }
     .review-list .container .section-content .table-wrap .table tbody tr td a {
       display: block;
-      color: #333; }
-    .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(2) {
-      display: table-cell;
-      width: 70px; }
-      .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(2) a {
-        font-size: 0; }
-        .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(2) a .item {
-          display: inline-block; }
-          .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(2) a .item img {
-            width: 100%; }
-        .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(2) a .details {
-          display: none; }
-    .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(3) {
-      display: table-cell;
-      padding: 10px; }
-      .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(3) > a {
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        display: block; }
-      .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(3) .info {
-        margin-top: 10px; }
-        .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(3) .info > ul {
-          font-size: 0; }
-          .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(3) .info > ul > li {
-            display: inline-block;
-            vertical-align: top;
-            font-size: 12px;
-            color: #999;
-            font-weight: 400;
-            margin-right: 15px; }
+      color: #333;
+      text-align: left; }
 @media (min-width: 1024px) {
   .review-list .container .section-content .table-wrap .btn-area {
     padding-bottom: 30px; }
@@ -2115,33 +2119,22 @@ body.modal-opened {
       line-height: 40px; }
   .review-list .container .section-content .table-wrap .table {
     border-top: 0; }
-    .review-list .container .section-content .table-wrap .table thead {
-      display: table-header-group; }
-      .review-list .container .section-content .table-wrap .table thead tr th {
-        font-size: 14px;
-        color: #333;
-        text-align: center;
-        padding: 20px 0;
-        font-weight: 500;
-        vertical-align: middle;
-        border-bottom: 1px solid #ccc; }
-        .review-list .container .section-content .table-wrap .table thead tr th:nth-of-type(1) {
-          width: 70px; }
-        .review-list .container .section-content .table-wrap .table thead tr th:nth-of-type(2) {
-          width: 160px; }
-        .review-list .container .section-content .table-wrap .table thead tr th:nth-of-type(3) {
-          width: auto; }
-        .review-list .container .section-content .table-wrap .table thead tr th:nth-of-type(4) {
-          width: 100px; }
-        .review-list .container .section-content .table-wrap .table thead tr th:nth-of-type(5) {
-          width: 100px; }
-        .review-list .container .section-content .table-wrap .table thead tr th:nth-of-type(6) {
-          width: 100px; }
+    .review-list .container .section-content .table-wrap .table thead tr th:nth-of-type(1) {
+      display: table-cell; }
+    .review-list .container .section-content .table-wrap .table thead tr th:nth-of-type(2) {
+      width: 100px;
+      display: table-cell; }
+    .review-list .container .section-content .table-wrap .table thead tr th:nth-of-type(4) {
+      width: 120px; }
     .review-list .container .section-content .table-wrap .table tbody tr td {
       padding: 20px 0;
       text-align: center;
       display: table-cell;
       border-color: #efefef; }
+      .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(1) {
+        display: table-cell; }
+      .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(2) {
+        display: table-cell; }
       .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(2) {
         text-align: left; }
         .review-list .container .section-content .table-wrap .table tbody tr td:nth-of-type(2) > a {
