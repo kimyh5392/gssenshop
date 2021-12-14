@@ -2983,6 +2983,420 @@ body {
     }
 }
 
+/* review-success */
+.review-success {
+    .container {
+        .section-content {
+            .classify {
+                > dl {
+                    display: table;
+                    width: 100%;
+                    table-layout: fixed;
+                    > dt {
+                        display: table-cell;
+                        vertical-align: middle;
+                        font-size: 14px;
+                        width: 80px;
+                    }
+                    > dd {
+                        display: table-cell;
+                        vertical-align: middle;
+                        font-size: 14px;
+                        .form-group {
+                            .form-control {
+                                display: block;
+                                width: 120px;
+                                height: 35px;
+                                font-size: 14px;
+                                color: #333;
+                                font-weight: 400;
+                                padding: 0 10px;
+                                border-radius: 5px;
+                                border: 1px solid #ccc;
+                            }
+                        }
+                    }
+                }
+            }
+            .table-wrap {
+                margin-top: 30px;
+                > .list-header {
+                    > ul {
+                        display: table;
+                        width: 100%;
+                        > li {
+                            display: none;
+                            font-size: 14px;
+                            color: #333;
+                            font-weight: 500;
+                            padding: 10px 0;
+                            text-align: center;
+                            border-bottom: 1px solid #d7d5d5;
+                            vertical-align: middle;
+                            &:nth-of-type(4) {
+                                display: table-cell;
+                            }
+                            &:nth-of-type(5) {
+                                width: 100px;
+                                display: table-cell;
+                            }
+                        }
+                    }
+                }
+                .list-content {
+                    > .list {
+                        > li {
+                            display: block;
+                            > ul {
+                                display: table;
+                                width: 100%;
+                                > li {
+                                    display: none;
+                                    font-size: 14px;
+                                    color: #333;
+                                    font-weight: 400;
+                                    padding: 10px 0;
+                                    text-align: center;
+                                    vertical-align: middle;
+                                    border-bottom: 1px solid #d7d5d5;
+                                    > a {
+                                        display: block;
+                                    }
+                                    &:nth-of-type(4) {
+                                        text-align: left;
+                                        padding: 10px;
+                                        display: table-cell;
+                                    }
+                                    &:nth-of-type(5) {
+                                        width: 100px;
+                                        display: table-cell;
+                                    }
+                                }
+                            }
+                            >.answer {
+                                overflow: hidden;
+                                height: 0;
+                                text-align: left;
+                                vertical-align: middle;
+                                transform-origin: top;
+                                transform: scaleY(0);
+                                @include transition();
+                                border-bottom: 1px solid #d7d5d5;
+                                background-color: #eaeaea;
+                                p {
+                                    font-size: 14px;
+                                    color: #333;
+                                    font-weight: 400;
+                                    line-height: 20px;
+                                    padding: 10px 20px 10px 30px;
+                                }
+                            }
+                            &.active {
+                                .answer {
+                                    height: auto;
+                                    transform: scaleY(1);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .container {
+            .section-content {
+                .table-wrap {
+                    margin-top: 40px;
+                    .list-header {
+                        > ul {
+                            > li {
+                                display: table-cell;
+                                font-size: 14px;
+                                color: #333;
+                                text-align: center;
+                                padding: 20px 0;
+                                font-weight: 500;
+                                border-bottom: 1px solid #ccc;
+                                &:nth-of-type(1) {
+                                    width: 70px;
+                                }
+                                &:nth-of-type(2) {
+                                    width: 80px;
+                                }
+                                &:nth-of-type(3) {
+                                    width: 150px;
+                                }
+                                &:nth-of-type(4) {
+                                    width: auto;
+                                }
+                                &:nth-of-type(5) {
+                                    width: 100px;
+                                }
+                                &:nth-of-type(6) {
+                                    width: 120px;
+                                }
+                                &:nth-of-type(7) {
+                                    width: 70px;
+                                }
+                            }
+                        }
+                    }
+                    .list-content {
+                        > .list {
+                            > li {
+                                > ul {
+                                    > li {
+                                        display: table-cell;
+                                        img {
+                                            display: block;
+                                            width: 100%;
+                                        }
+                                        &:nth-of-type(1) {
+                                            width: 70px;
+                                        }
+                                        &:nth-of-type(2) {
+                                            width: 80px;
+                                        }
+                                        &:nth-of-type(3) {
+                                            width: 150px;
+                                        }
+                                        &:nth-of-type(4) {
+                                            width: auto;
+                                        }
+                                        &:nth-of-type(5) {
+                                            width: 100px;
+                                        }
+                                        &:nth-of-type(6) {
+                                            width: 120px;
+                                        }
+                                        &:nth-of-type(7) {
+                                            width: 70px;
+                                        }
+                                    }
+                                }
+                                .answer {
+                                    p {
+                                        padding: 20px 20px 20px 70px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        padding-bottom: 30px;
+                        .btn-write {
+                            width: 160px;
+                            font-size: 16px;
+                            line-height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.review-nonregistered {
+    .container {
+        .section-content {
+            .classify {
+                > dl {
+                    display: table;
+                    width: 100%;
+                    table-layout: fixed;
+                    > dt {
+                        display: table-cell;
+                        vertical-align: middle;
+                        font-size: 14px;
+                        width: 80px;
+                    }
+                    > dd {
+                        display: table-cell;
+                        vertical-align: middle;
+                        font-size: 14px;
+                        .form-group {
+                            .form-control {
+                                display: block;
+                                width: 120px;
+                                height: 35px;
+                                font-size: 14px;
+                                color: #333;
+                                font-weight: 400;
+                                padding: 0 10px;
+                                border-radius: 5px;
+                                border: 1px solid #ccc;
+                            }
+                        }
+                    }
+                }
+            }
+            .table-wrap {
+                margin-top: 30px;
+                > .list-header {
+                    > ul {
+                        display: table;
+                        width: 100%;
+                        > li {
+                            display: none;
+                            font-size: 14px;
+                            color: #333;
+                            font-weight: 500;
+                            padding: 10px 0;
+                            text-align: center;
+                            border-bottom: 1px solid #d7d5d5;
+                            vertical-align: middle;
+                            &:nth-of-type(3) {
+                                display: table-cell;
+                            }
+                            &:nth-of-type(4) {
+                                width: 100px;
+                                display: table-cell;
+                            }
+                        }
+                    }
+                }
+                .list-content {
+                    > .list {
+                        > li {
+                            display: block;
+                            > ul {
+                                display: table;
+                                width: 100%;
+                                > li {
+                                    display: none;
+                                    font-size: 14px;
+                                    color: #333;
+                                    font-weight: 400;
+                                    padding: 10px 0;
+                                    text-align: center;
+                                    vertical-align: middle;
+                                    border-bottom: 1px solid #d7d5d5;
+                                    > a {
+                                        display: block;
+                                    }
+                                    > .btn-area {
+                                        padding: 0;
+                                        .btn-default {
+                                            display: block;
+                                            width: 100px;
+                                            line-height: 28px;
+                                            font-size: 14px;
+                                            color: #333;
+                                            text-align: center;
+                                            margin: 0 auto;
+                                            border-radius: 5px;
+                                            border: 1px solid #ccc;
+                                        }
+                                    }
+                                    img {
+                                        display: block;
+                                        width: 70px;
+                                        margin: 0 auto;
+                                    }
+                                    &:nth-of-type(3) {
+                                        text-align: left;
+                                        padding: 0 15px;
+                                        display: table-cell;
+                                    }
+                                    &:nth-of-type(4) {
+                                        width: 100px;
+                                        display: table-cell;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .container {
+            .section-content {
+                .table-wrap {
+                    margin-top: 40px;
+                    .list-header {
+                        > ul {
+                            > li {
+                                padding: 20px 0;
+                                &:nth-of-type(1) {
+                                    width: 100px;
+                                    display: table-cell;
+                                }
+                                &:nth-of-type(2) {
+                                    width: 100px;
+                                    display: table-cell;
+                                }
+                                &:nth-of-type(4) {
+                                    width: 120px;
+                                }
+                            }
+                        }
+                    }
+                    .list-content {
+                        > .list {
+                            > li {
+                                > ul {
+                                    > li {
+                                        &:nth-of-type(1) {
+                                            width: 100px;
+                                            display: table-cell;
+                                        }
+                                        &:nth-of-type(2) {
+                                            width: 100px;
+                                            display: table-cell;
+                                            text-align: left;
+                                            > a {
+                                                font-size: 0;
+                                                .item {
+                                                    display: inline-block;
+                                                    vertical-align: middle;
+                                                    width: 40%;
+                                                }
+                                                .details {
+                                                    display: inline-block;
+                                                    vertical-align: middle;
+                                                    width: 60%;
+                                                    font-size: 14px;
+                                                    color: #333;
+                                                    font-weight: 400;
+                                                    padding-left: 10px;
+                                                }
+                                            }
+                                        }
+                                        &:nth-of-type(3) {
+                                            text-align: left;
+                                            padding: 20px 30px;
+                                            > a {
+
+                                            }
+                                            .info {
+                                                display: none;
+                                            }
+                                        }
+                                        &:nth-of-type(4) {
+                                            width: 120px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        padding-bottom: 30px;
+                        .btn-write {
+                            width: 160px;
+                            font-size: 16px;
+                            line-height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 /* faq */
 .faq {
     .container {

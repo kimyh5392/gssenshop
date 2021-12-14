@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="/content/assets/css/default.css">
+		<link rel="stylesheet" href="/content/assets/css/mypage.css">
+		<link rel="stylesheet" href="/content/assets/fontello/css/fontello.css">
+		<title>gssenshop</title>
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+				<h1 class="logo">
+				    <a href="/content/">
+				        <img src="/content/assets/images/logo.png" alt="">
+				    </a>
+				</h1>
+				<div class="quick-menu">
+                    <div class="category">
+                        <ul>
+                            <li><a href="/content/about/about.html">ABOUT US</a></li>
+                            <li>
+                                <a href="/content/shop/product_list.html">SHOP</a>
+                                <!--<ul>
+                                    <li><a href="#">menu1</a></li>
+                                    <li><a href="#">menumenu2</a></li>
+                                    <li><a href="#">menu-3</a></li>
+                                    <li><a href="#">menu--4</a></li>
+                                </ul>-->
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search-area">
+						<div class="form-group">
+							<div>
+								<input type="text" class="form-control">
+								<div class="btn-area">
+									<button type="button" class="btn-search">
+										<i class="icon-search"></i>
+									</button>
+									<button type="submit" class="btn-cancel">
+										<i class="icon-cancel"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="btn-search-open">
+							<i class="icon-search"></i>
+						</button>
+                    </div>
+                    <div class="basket">
+                        <a href="/content/mypage/basket_list.html" class="btn-basket">
+                            <i class="icon-shopping-bag"></i>
+                        </a>
+                    </div>
+				    <div class="btn-area">
+				        <button type="button" class="btn-nav">
+				            <i class="icon-menu-1"></i>
+				        </button>
+				    </div>
+				</div>
+			</div>
+		</header>
+		
+		<!-- nav -->
+		<nav id="nav">
+			<div class="backdrop"></div>
+			<!--<div class="nav-content type-1">
+				<div class="nav-head">
+					<ul>
+						<li><a href="/content/member/login.html">로그인</a></li>
+					</ul>
+					<button type="button" class="btn-nav-close">
+						<i class="icon-cancel"></i>
+					</button>
+				</div>
+				<div class="nav-body">
+					<ul>
+						<li><a href="/content/about/about.html">ABOUT US</a></li>
+						<li><a href="/content/shop/product_list.html">SHOP</a></li>
+					</ul>
+					<hr>
+					<ul>
+						<li><a href="/content/board/notice_list.html">공지사항</a></li>
+						<li><a href="/content/board/qna_list.html">상품 Q&amp;A</a></li>
+						<li><a href="/content/board/review_list.html">리뷰</a></li>
+						<li><a href="/content/board/membership_list.html">멤버십</a></li>
+					</ul>
+				</div>
+			</div>-->
+			<div class="nav-content type-2">
+				<div class="nav-head">
+					<div class="top">
+						<p class="user"><b>홍길동님</b> 님</p>
+						<a href="#">Logout</a>
+					</div>
+					<ul>
+						<li><a href="/content/mypage/order_list.html">주문조회</a></li>
+						<li><a href="/content/member/modify.html">회원정보</a></li>
+						<li><a href="/content/mypage/my_shopping.html">마이쇼핑</a></li>
+					</ul>
+					<button type="button" class="btn-nav-close">
+						<i class="icon-cancel"></i>
+					</button>
+				</div>
+				<div class="my-content">
+					<div class="my-assets">
+						<dl>
+							<dt>내 쿠폰</dt>
+							<dd>
+								<ul>
+									<!--<li>
+										<a href="#">
+											<dl>
+												<dt>적립금</dt>
+												<dd>0원</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>예치금</dt>
+												<dd>0원</dd>
+											</dl>
+										</a>
+									</li>-->
+									<li>
+										<a href="/content/mypage/coupon.html">
+											<dl>
+												<dt>쿠폰</dt>
+												<dd>1개</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+					<div class="my-order">
+						<dl>
+							<dt>내 주문현황</dt>
+							<dd>
+								<ul>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>입금전</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>배송준비중</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>배송중</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>배송완료</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>취소</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>교환</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<dl>
+												<dt>반품</dt>
+												<dd>0</dd>
+											</dl>
+										</a>
+									</li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="nav-body">
+					<ul>
+						<li><a href="/content/board/notice_list.html">공지사항</a></li>
+						<li><a href="/content/board/qna_list.html">상품 Q&amp;A</a></li>
+						<li><a href="/content/board/review_list.html">리뷰</a></li>
+						<li><a href="/content/board/membership_list.html">멤버십</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Content -->
+		<main id="content">
+            <section class="review-success">
+                <div class="container">
+                    <div class="section-header">
+                        <h3>게시물 관리</h3>
+                    </div>
+                    <div class="section-content">
+                        <div class="classify">
+                            <dl>
+                                <dt>분류 선택</dt>
+                                <dd>
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option>작성 일자별</option>
+                                            <option>분류별</option>
+                                        </select>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <div class="table-wrap">
+                                <div class="list-header">
+                                    <ul>
+                                        <li>번호</li>
+                                        <li>이미지</li>
+                                        <li>분류</li>
+                                        <li>제목</li>
+                                        <li>작성자</li>
+                                        <li>작성일</li>
+                                        <li>조회</li>
+                                    </ul>
+                                </div>
+                                <div class="list-content">
+                                    <ul class="list">
+                                        <li>
+                                            <ul>
+                                                <li>1</li>
+                                                <li><img src="/content/assets/images/main/img_product_sm.jpg" alt=""></li>
+                                                <li>생활도감 치약</li>
+                                                <li><a href="javascript:;">결제 문의</a></li>
+                                                <li>홍길동</li>
+                                                <li> 2021-08-17</li>
+                                                <li>0</li>
+                                            </ul>
+                                            <div class="answer">
+                                                <p>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>2</li>
+                                                <li><img src="/content/assets/images/main/img_product_sm.jpg" alt=""></li>
+                                                <li>생활도감 치약</li>
+                                                <li><a href="javascript:;">결제 문의</a></li>
+                                                <li>홍길동</li>
+                                                <li> 2021-08-17</li>
+                                                <li>0</li>
+                                            </ul>
+                                            <div class="answer">
+                                                <p>답변입니다.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>3</li>
+                                                <li><img src="/content/assets/images/main/img_product_sm.jpg" alt=""></li>
+                                                <li>생활도감 치약</li>
+                                                <li><a href="javascript:;">결제 문의</a></li>
+                                                <li>홍길동</li>
+                                                <li> 2021-08-17</li>
+                                                <li>0</li>
+                                            </ul>
+                                            <div class="answer">
+                                                <p>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>4</li>
+                                                <li><img src="/content/assets/images/main/img_product_sm.jpg" alt=""></li>
+                                                <li>생활도감 치약</li>
+                                                <li><a href="javascript:;">결제 문의</a></li>
+                                                <li>홍길동</li>
+                                                <li> 2021-08-17</li>
+                                                <li>0</li>
+                                            </ul>
+                                            <div class="answer">
+                                                <p>답변입니다.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>5</li>
+                                                <li><img src="/content/assets/images/main/img_product_sm.jpg" alt=""></li>
+                                                <li>생활도감 치약</li>
+                                                <li><a href="javascript:;">결제 문의</a></li>
+                                                <li>홍길동</li>
+                                                <li> 2021-08-17</li>
+                                                <li>0</li>
+                                            </ul>
+                                            <div class="answer">
+                                                <p>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>6</li>
+                                                <li><img src="/content/assets/images/main/img_product_sm.jpg" alt=""></li>
+                                                <li>생활도감 치약</li>
+                                                <li><a href="javascript:;">결제 문의</a></li>
+                                                <li>홍길동</li>
+                                                <li> 2021-08-17</li>
+                                                <li>0</li>
+                                            </ul>
+                                            <div class="answer">
+                                                <p>답변입니다.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>7</li>
+                                                <li><img src="/content/assets/images/main/img_product_sm.jpg" alt=""></li>
+                                                <li>생활도감 치약</li>
+                                                <li><a href="javascript:;">결제 문의</a></li>
+                                                <li>홍길동</li>
+                                                <li> 2021-08-17</li>
+                                                <li>0</li>
+                                            </ul>
+                                            <div class="answer">
+                                                <p>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>8</li>
+                                                <li><img src="/content/assets/images/main/img_product_sm.jpg" alt=""></li>
+                                                <li>생활도감 치약</li>
+                                                <li><a href="javascript:;">결제 문의</a></li>
+                                                <li>홍길동</li>
+                                                <li> 2021-08-17</li>
+                                                <li>0</li>
+                                            </ul>
+                                            <div class="answer">
+                                                <p>답변입니다.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>9</li>
+                                                <li><img src="/content/assets/images/main/img_product_sm.jpg" alt=""></li>
+                                                <li>생활도감 치약</li>
+                                                <li><a href="javascript:;">결제 문의</a></li>
+                                                <li>홍길동</li>
+                                                <li> 2021-08-17</li>
+                                                <li>0</li>
+                                            </ul>
+                                            <div class="answer">
+                                                <p>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.<br>
+                                                    답변입니다.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>10</li>
+                                                <li><img src="/content/assets/images/main/img_product_sm.jpg" alt=""></li>
+                                                <li>생활도감 치약</li>
+                                                <li><a href="javascript:;">결제 문의</a></li>
+                                                <li>홍길동</li>
+                                                <li> 2021-08-17</li>
+                                                <li>0</li>
+                                            </ul>
+                                            <div class="answer">
+                                                <p>답변입니다.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <nav class="pagination">
+                                    <ul>
+                                        <li class="first"><a href="#"><i class="icon-angle-double-left"></i></a></li>
+                                        <li class="prev"><a href="#"><i class="icon-angle-left"></i></a></li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li class="next"><a href="#"><i class="icon-angle-right"></i></a></li>
+                                        <li class="last"><a href="#"><i class="icon-angle-double-right"></i></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+							<div class="search-box">
+								<div class="top-area">
+									<div class="form-group date-input">
+										<input type="text" class="form-control">
+										<span>~</span>
+										<input type="text" class="form-control">
+									</div>
+									<ul class="select-date">
+										<li><a href="javascript:;">1주일</a></li>
+										<li><a href="javascript:;">1개월</a></li>
+										<li><a href="javascript:;">4개월</a></li>
+										<li><a href="javascript:;">6개월</a></li>
+									</ul>
+								</div>
+								<div class="form-group">
+									<div class="form-group search-input">
+										<input type="text" class="form-control">
+										<button type="button" class="btn-search">조회</button>
+									</div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+		</main>
+		
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="container">
+				<h2><img src="/content/assets/images/logo.png" alt=""></h2>
+				<div class="terms">
+					<ul>
+						<li><a href="/content/policy/agreement.html">이용약관</a></li>
+						<li><a href="/content/policy/privacy.html">개인정보처리방침</a></li>
+						<li><a href="/content/policy/guide.html">이용안내</a></li>
+						<li><a href="#">사업자정보확인</a></li>
+					</ul>
+				</div>
+				<div class="information">
+					<ul>
+						<li>
+							<dl>
+								<dt>법인명(상호)</dt>
+								<dd>GSSENSHOP</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>대표자(성명)</dt>
+								<dd>홍길동</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>사업자 등록번호 안내</dt>
+								<dd>000-00-00000</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>통신판매업 신고</dt>
+								<dd>제 0000-서울강남-0000 호</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>전화번호</dt>
+								<dd><a href="tel:16000000">1600-0000</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>주소</dt>
+								<dd><address>00000 서울특별시 ㅇㅇ구 ㅇㅇㅇ0길 00</address></dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<p class="copyright">Copyright © GSSENSHOP. All rights reserved.</p>
+			</div>
+		</footer>
+		
+		<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+		<script src='/content/assets/js/common.js'></script>
+		<script>
+			(function($){
+                $(document).on('click', '.list-content > .list > li > ul > li > a', function(){
+                    $(this).parents('li').toggleClass('active');
+                });
+				// 검색 날짜 선택
+				$(document).on('click', '.select-date > li > a', function(){
+					$('.select-date > li').removeClass('active');
+					$(this).parent().addClass('active');
+				});
+				$(document).on('click', '.select-date > li.active > a', function(){
+					$(this).parent().removeClass('active');
+				});
+			})(jQuery);
+		</script>
+	</body>
+</html>
