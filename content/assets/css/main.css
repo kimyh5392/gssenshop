@@ -738,4 +738,40 @@ body.show-modal {
   body.show-modal .modal-popup {
     display: block; }
 
+/* event-pop */
+.event-pop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  padding: 90px 10px; }
+  .event-pop .pop-wrap {
+    max-width: 400px; }
+    .event-pop .pop-wrap .pop-content {
+      overflow-x: auto; }
+      .event-pop .pop-wrap .pop-content a {
+        display: block; }
+        .event-pop .pop-wrap .pop-content a img {
+          display: block;
+          max-width: 100%; }
+    .event-pop .pop-wrap .pop-foot {
+      padding-top: 10px;
+      overflow: hidden; }
+      .event-pop .pop-wrap .pop-foot .event-close {
+        font-size: 13px;
+        color: #000; }
+      .event-pop .pop-wrap .pop-foot > label {
+        font-size: 13px;
+        color: #000;
+        float: right; }
+        .event-pop .pop-wrap .pop-foot > label input[type="checkbox"] {
+          position: relative;
+          top: 1px;
+          margin: 0; }
+  @media (min-width: 1200px) {
+    .event-pop {
+      padding: 0;
+      top: 100px;
+      left: 200px; } }
+
 /*# sourceMappingURL=main.css.map */

@@ -881,6 +881,50 @@ body {
     }
 }
 
+/* event-pop */
+.event-pop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    padding: 90px 10px;
+    .pop-wrap {
+        max-width: 400px;
+        .pop-content {
+            overflow-x: auto;
+            a {
+                display: block;
+                img {
+                    display: block;
+                    max-width: 100%;
+                }
+            }
+        }
+        .pop-foot {
+            padding-top: 10px;
+            overflow: hidden;
+            .event-close {
+                font-size: 13px;
+                color: #000;
+            }
+            > label {
+                font-size: 13px;
+                color: #000;
+                float: right;
+                input[type="checkbox"] {
+                    position: relative;
+                    top: 1px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    @media(min-width: $lg) {
+        padding: 0;
+        top: 100px;
+        left: 200px;
+    }
+}
 
 
 

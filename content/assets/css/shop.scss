@@ -2579,10 +2579,10 @@ body {
                         text-align: center;
                         border-bottom: 1px solid #d7d5d5;
                         vertical-align: middle;
-                        &:nth-of-type(1) {
+                        &:nth-of-type(2) {
                             display: table-cell;
                         }
-                        &:nth-of-type(3) {
+                        &:nth-of-type(4) {
                             width: 100px;
                             display: table-cell;
                         }
@@ -2616,11 +2616,11 @@ body {
                                 > a {
                                     display: block;
                                 }
-                                &:nth-of-type(1) {
+                                &:nth-of-type(2) {
                                     text-align: left;
                                     display: table-cell;
                                 }
-                                &:nth-of-type(3) {
+                                &:nth-of-type(4) {
                                     width: 100px;
                                     display: table-cell;
                                 }
@@ -2647,6 +2647,45 @@ body {
                                     margin: 20px auto;
                                 }
                             }
+                            .btn-area {
+                                font-size: 0;
+                                padding: 20px;
+                                padding-bottom: 10px;
+                                > a {
+                                    display: inline-block;
+                                    width: 80px;
+                                    font-size: 13px;
+                                    color: #333;
+                                    font-weight: 400;
+                                    text-align: center;
+                                    line-height: 30px;
+                                    border: 1px solid #ccc;
+                                    border-radius: 5px;
+                                    margin-right: 10px;
+                                    background-color: #fff;
+                                    &:last-child {
+                                        margin-right: 0;
+                                    }
+                                }
+                            }
+                            .like {
+                                display: block;
+                                font-size: 14px;
+                                color: #333;
+                                line-height: 20px;
+                                font-weight: 400;
+                                padding: 10px 20px 20px 20px;
+                                text-align: right;
+                                > a {
+                                    display: inline-block;
+                                    @include transition();
+                                }
+                                &.active {
+                                    > a {
+                                        color: #f85254;
+                                    }
+                                }
+                            }
                         }
                         &.active {
                             .view-content {
@@ -2668,15 +2707,18 @@ body {
                             display: table-cell;
                             padding: 20px 0;
                             &:nth-of-type(1) {
-                                width: auto;
+                                width: 150px;
                             }
                             &:nth-of-type(2) {
-                                width: 100px;
+                                width: auto;
                             }
                             &:nth-of-type(3) {
                                 width: 100px;
                             }
                             &:nth-of-type(4) {
+                                width: 100px;
+                            }
+                            &:nth-of-type(5) {
                                 width: 100px;
                             }
                         }
@@ -2694,15 +2736,18 @@ body {
                                     display: table-cell;
                                     padding: 20px 0;
                                     &:nth-of-type(1) {
-                                        width: auto;
+                                        width: 150px;
                                     }
                                     &:nth-of-type(2) {
-                                        width: 100px;
+                                        width: auto;
                                     }
                                     &:nth-of-type(3) {
                                         width: 100px;
                                     }
                                     &:nth-of-type(4) {
+                                        width: 100px;
+                                    }
+                                    &:nth-of-type(5) {
                                         width: 100px;
                                     }
                                     .success-answer {

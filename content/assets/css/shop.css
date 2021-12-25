@@ -2732,9 +2732,9 @@ body.show-basket {
     text-align: center;
     border-bottom: 1px solid #d7d5d5;
     vertical-align: middle; }
-    #ch3 .info-content .table-wrap .list-head > ul > li:nth-of-type(1) {
+    #ch3 .info-content .table-wrap .list-head > ul > li:nth-of-type(2) {
       display: table-cell; }
-    #ch3 .info-content .table-wrap .list-head > ul > li:nth-of-type(3) {
+    #ch3 .info-content .table-wrap .list-head > ul > li:nth-of-type(4) {
       width: 100px;
       display: table-cell; }
 #ch3 .info-content .table-wrap .list-content .list .none-content {
@@ -2759,10 +2759,10 @@ body.show-basket {
     border-bottom: 1px solid #d7d5d5; }
     #ch3 .info-content .table-wrap .list-content .list > li > ul > li > a {
       display: block; }
-    #ch3 .info-content .table-wrap .list-content .list > li > ul > li:nth-of-type(1) {
+    #ch3 .info-content .table-wrap .list-content .list > li > ul > li:nth-of-type(2) {
       text-align: left;
       display: table-cell; }
-    #ch3 .info-content .table-wrap .list-content .list > li > ul > li:nth-of-type(3) {
+    #ch3 .info-content .table-wrap .list-content .list > li > ul > li:nth-of-type(4) {
       width: 100px;
       display: table-cell; }
 #ch3 .info-content .table-wrap .list-content .list > li .view-content {
@@ -2791,6 +2791,44 @@ body.show-basket {
       display: block;
       max-width: 100%;
       margin: 20px auto; }
+  #ch3 .info-content .table-wrap .list-content .list > li .view-content .btn-area {
+    font-size: 0;
+    padding: 20px;
+    padding-bottom: 10px; }
+    #ch3 .info-content .table-wrap .list-content .list > li .view-content .btn-area > a {
+      display: inline-block;
+      width: 80px;
+      font-size: 13px;
+      color: #333;
+      font-weight: 400;
+      text-align: center;
+      line-height: 30px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-right: 10px;
+      background-color: #fff; }
+      #ch3 .info-content .table-wrap .list-content .list > li .view-content .btn-area > a:last-child {
+        margin-right: 0; }
+  #ch3 .info-content .table-wrap .list-content .list > li .view-content .like {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 10px 20px 20px 20px;
+    text-align: right; }
+    #ch3 .info-content .table-wrap .list-content .list > li .view-content .like > a {
+      display: inline-block;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+    #ch3 .info-content .table-wrap .list-content .list > li .view-content .like.active > a {
+      color: #f85254; }
 #ch3 .info-content .table-wrap .list-content .list > li.active .view-content {
   height: auto;
   transform: scaleY(1); }
@@ -2799,12 +2837,14 @@ body.show-basket {
     display: table-cell;
     padding: 20px 0; }
     #ch3 .info-content .table-wrap .list-head > ul > li:nth-of-type(1) {
-      width: auto; }
+      width: 150px; }
     #ch3 .info-content .table-wrap .list-head > ul > li:nth-of-type(2) {
-      width: 100px; }
+      width: auto; }
     #ch3 .info-content .table-wrap .list-head > ul > li:nth-of-type(3) {
       width: 100px; }
     #ch3 .info-content .table-wrap .list-head > ul > li:nth-of-type(4) {
+      width: 100px; }
+    #ch3 .info-content .table-wrap .list-head > ul > li:nth-of-type(5) {
       width: 100px; }
   #ch3 .info-content .table-wrap .list-content .list .none-content {
     font-size: 16px;
@@ -2813,12 +2853,14 @@ body.show-basket {
     display: table-cell;
     padding: 20px 0; }
     #ch3 .info-content .table-wrap .list-content .list > li > ul > li:nth-of-type(1) {
-      width: auto; }
+      width: 150px; }
     #ch3 .info-content .table-wrap .list-content .list > li > ul > li:nth-of-type(2) {
-      width: 100px; }
+      width: auto; }
     #ch3 .info-content .table-wrap .list-content .list > li > ul > li:nth-of-type(3) {
       width: 100px; }
     #ch3 .info-content .table-wrap .list-content .list > li > ul > li:nth-of-type(4) {
+      width: 100px; }
+    #ch3 .info-content .table-wrap .list-content .list > li > ul > li:nth-of-type(5) {
       width: 100px; }
     #ch3 .info-content .table-wrap .list-content .list > li > ul > li .success-answer {
       width: 70px;

@@ -874,6 +874,26 @@ section {
         left: 0;
         content: '\E80B';
         font-family: 'fontello'; }
+    .write-form .container .section-content .table-wrap .table tbody tr td .form-group .file {
+      position: relative; }
+      .write-form .container .section-content .table-wrap .table tbody tr td .form-group .file > .btn-minus {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        display: block;
+        width: 16px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 15px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #c40303; }
+      .write-form .container .section-content .table-wrap .table tbody tr td .form-group .file ~ .file {
+        margin-top: 10px; }
+    .write-form .container .section-content .table-wrap .table tbody tr td .note {
+      margin-top: 10px; }
     .write-form .container .section-content .table-wrap .table tbody tr td .summary {
       width: 100%;
       height: 100px;
@@ -967,6 +987,16 @@ section {
       padding: 10px 20px; }
       .write-form .container .section-content .table-wrap .table tbody tr td .form-group textarea {
         height: 200px !important; }
+      .write-form .container .section-content .table-wrap .table tbody tr td .form-group.inline {
+        display: inline-block;
+        vertical-align: top; }
+      .write-form .container .section-content .table-wrap .table tbody tr td .note {
+        font-size: 14px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 35px;
+        padding-left: 20px;
+        margin-top: 0; }
       .write-form .container .section-content .table-wrap .table tbody tr td .summary {
         font-size: 14px;
         line-height: 18px;
@@ -2168,5 +2198,12 @@ body.modal-opened {
       margin: 0 auto; }
     .membership-view .container .section-content .board-view .article-content .table-wrap .table tbody tr td.u-content a {
       display: block; }
+
+/* event-list */
+.event-list .container {
+  max-width: 1500px; }
+  .event-list .container .section-content figure img {
+    display: block;
+    width: 100%; }
 
 /*# sourceMappingURL=board.css.map */

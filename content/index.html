@@ -23,15 +23,8 @@
                     <div class="category">
                         <ul>
                             <li><a href="/content/about/about.html">ABOUT US</a></li>
-                            <li>
-                                <a href="/content/shop/product_list.html">SHOP</a>
-                                <!--<ul>
-                                    <li><a href="#">menu1</a></li>
-                                    <li><a href="#">menumenu2</a></li>
-                                    <li><a href="#">menu-3</a></li>
-                                    <li><a href="#">menu--4</a></li>
-                                </ul>-->
-                            </li>
+                            <li><a href="/content/shop/product_list.html">SHOP</a></li>
+                            <li><a href="/content/board/event_list.html">기획전</a></li>
                         </ul>
                     </div>
                     <div class="search-area">
@@ -521,6 +514,23 @@
 			</div>
 		</footer>
 		
+		<!-- event-pop -->
+		<div class="event-pop">
+		    <div class="pop-wrap">
+		        <div class="pop-content">
+		            <a href="#">
+		                <figure>
+		                    <img src="/content/assets/images/main_pop.png" alt="">
+		                </figure>
+		            </a>
+		        </div>
+		        <div class="pop-foot">
+                    <button type="button" class="event-close">[닫기]</button>
+		            <label><input type="checkbox"> 오늘하루 보지않기</label>
+		        </div>
+		    </div>
+		</div>
+		
 		<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 		<script src='/content/assets/js/common.js'></script>
@@ -548,6 +558,11 @@
                     slidesToScroll: 1,
                     autoplay: true,
                     autoplaySpeed: 4000,
+                });
+                
+                // event-pop
+                $(document).on('click', '.event-close', function(){
+                    $('.event-pop').hide();
                 });
 			})(jQuery);
 		</script>
