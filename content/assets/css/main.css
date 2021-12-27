@@ -746,7 +746,8 @@ body.show-modal {
   z-index: 200;
   padding: 90px 10px; }
   .event-pop .pop-wrap {
-    max-width: 400px; }
+    max-width: 400px;
+    box-shadow: 10px 10px 50px #1a1a1a; }
     .event-pop .pop-wrap .pop-content {
       overflow-x: auto; }
       .event-pop .pop-wrap .pop-content a {
@@ -755,19 +756,23 @@ body.show-modal {
           display: block;
           max-width: 100%; }
     .event-pop .pop-wrap .pop-foot {
-      padding-top: 10px;
-      overflow: hidden; }
-      .event-pop .pop-wrap .pop-foot .event-close {
-        font-size: 13px;
-        color: #000; }
+      padding: 5px 10px;
+      overflow: hidden;
+      background-color: #000; }
       .event-pop .pop-wrap .pop-foot > label {
+        float: left;
         font-size: 13px;
-        color: #000;
-        float: right; }
+        color: #fff;
+        line-height: 20px; }
         .event-pop .pop-wrap .pop-foot > label input[type="checkbox"] {
           position: relative;
           top: 1px;
           margin: 0; }
+      .event-pop .pop-wrap .pop-foot .event-close {
+        float: right;
+        line-height: 20px;
+        font-size: 13px;
+        color: #fff; }
   @media (min-width: 1200px) {
     .event-pop {
       padding: 0;
