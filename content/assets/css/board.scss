@@ -71,6 +71,33 @@
                             td {
                                 padding: 10px;
                                 border-bottom: 1px solid #ccc;
+                                .item-list {
+                                    > li {
+                                        & ~ li {
+                                            margin-top: 15px;
+                                        }
+                                    }
+                                }
+                                .item-image {
+                                    img {
+                                        max-width: 100%;
+                                    }
+                                }
+                                .btns {
+                                    padding-top: 10px;
+                                    > .btn-del {
+                                        display: block;
+                                        width: 100px;
+                                        line-height: 30px;
+                                        font-size: 14px;
+                                        color: #333;
+                                        text-align: center;
+                                        border: 1px solid #aaa;
+                                        border-radius: 5px;
+                                        background-color: #fff;
+                                        margin: 0 auto;
+                                    }
+                                }
                                 .form-group {
                                     textarea {
                                         width: 100%;
@@ -246,6 +273,28 @@
                                 }
                                 td {
                                     padding: 10px 20px;
+                                    .item-list {
+                                        > li {
+                                            & ~ li {
+                                                margin-top: 20px;
+                                            }
+                                        }
+                                    }
+                                    .item-image {
+                                        display: table-cell;
+                                        vertical-align: middle;
+                                        img {
+                                            max-width: 100%;
+                                        }
+                                    }
+                                    .btns {
+                                        display: table-cell;
+                                        width: 140px;
+                                        vertical-align: middle;
+                                        > .btn-del {
+                                            line-height: 33px;
+                                        }
+                                    }
                                     .form-group {
                                         textarea {
                                             height: 200px !important;
@@ -2071,7 +2120,6 @@ body {
 /* event-list */
 .event-list {
     .container {
-        max-width: 1500px;
         .section-content {
             figure {
                 img {

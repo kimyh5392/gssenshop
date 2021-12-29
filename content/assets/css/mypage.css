@@ -2886,8 +2886,8 @@ body.reason-modal .modal-reason {
       vertical-align: middle; }
       .review-success .container .section-content .table-wrap > .list-header > ul > li:nth-of-type(4) {
         display: table-cell; }
-      .review-success .container .section-content .table-wrap > .list-header > ul > li:nth-of-type(5) {
-        width: 100px;
+      .review-success .container .section-content .table-wrap > .list-header > ul > li:nth-of-type(7) {
+        width: 95px;
         display: table-cell; }
   .review-success .container .section-content .table-wrap .list-content > .list > li {
     display: block; }
@@ -2905,12 +2905,27 @@ body.reason-modal .modal-reason {
         border-bottom: 1px solid #d7d5d5; }
         .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li > a {
           display: block; }
+        .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li .btn-area {
+          font-size: 0; }
+          .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li .btn-area > a {
+            display: inline-block;
+            width: 40px;
+            line-height: 20px;
+            font-size: 12px;
+            color: #333;
+            text-align: center;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            background-color: #fff;
+            margin-right: 5px; }
+            .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li .btn-area > a:last-child {
+              margin-right: 0; }
         .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li:nth-of-type(4) {
           text-align: left;
           padding: 10px;
           display: table-cell; }
-        .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li:nth-of-type(5) {
-          width: 100px;
+        .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li:nth-of-type(7) {
+          width: 95px;
           display: table-cell; }
     .review-success .container .section-content .table-wrap .list-content > .list > li > .answer {
       overflow: hidden;
@@ -2962,7 +2977,7 @@ body.reason-modal .modal-reason {
       .review-success .container .section-content .table-wrap .list-header > ul > li:nth-of-type(6) {
         width: 120px; }
       .review-success .container .section-content .table-wrap .list-header > ul > li:nth-of-type(7) {
-        width: 70px; }
+        width: 150px; }
     .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li {
       display: table-cell; }
       .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li img {
@@ -2981,7 +2996,14 @@ body.reason-modal .modal-reason {
       .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li:nth-of-type(6) {
         width: 120px; }
       .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li:nth-of-type(7) {
-        width: 70px; }
+        width: 150px; }
+      .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li > .btn-area {
+        padding: 0; }
+        .review-success .container .section-content .table-wrap .list-content > .list > li > ul > li > .btn-area > a {
+          width: 70px;
+          line-height: 33px;
+          font-size: 14px;
+          margin-right: 10px; }
     .review-success .container .section-content .table-wrap .list-content > .list > li .answer p {
       padding: 20px 20px 20px 70px; }
     .review-success .container .section-content .table-wrap .btn-area {
