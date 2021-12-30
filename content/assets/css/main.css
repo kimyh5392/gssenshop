@@ -746,6 +746,8 @@ body.show-modal {
   z-index: 200;
   padding: 90px 10px; }
   .event-pop .pop-wrap {
+    width: 94%;
+    margin: 0 auto;
     max-width: 400px;
     box-shadow: 10px 10px 50px #1a1a1a; }
     .event-pop .pop-wrap .pop-content {
@@ -777,6 +779,7 @@ body.show-modal {
     .event-pop {
       padding: 0;
       top: 100px;
-      left: 200px; } }
+      left: 200px;
+      margin: 0; } }
 
 /*# sourceMappingURL=main.css.map */

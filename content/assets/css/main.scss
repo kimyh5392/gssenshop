@@ -889,6 +889,8 @@ body {
     z-index: 200;
     padding: 90px 10px;
     .pop-wrap {
+        width: 94%;
+        margin: 0 auto;
         max-width: 400px;
         box-shadow: 10px 10px 50px #1a1a1a;
         .pop-content {
@@ -928,6 +930,7 @@ body {
         padding: 0;
         top: 100px;
         left: 200px;
+        margin: 0;
     }
 }
 
