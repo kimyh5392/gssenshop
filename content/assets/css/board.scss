@@ -2121,10 +2121,36 @@ body {
 .event-list {
     .container {
         .section-content {
-            figure {
-                img {
+            .visible-sm {
+                display: block;
+                > figure {
+                    > img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+            .visible-lg {
+                display: none;
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .container {
+            .section-content {
+                .visible-sm {
+                    display: none;
+                }
+                .visible-lg {
                     display: block;
-                    width: 100%;
+                    > figure {
+                        img {
+                            width: 100%;
+                            /*display: block;
+                            max-width: auto;
+                            margin: 0 auto;*/
+                        }
+                    }
                 }
             }
         }

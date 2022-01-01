@@ -2230,8 +2230,22 @@ body.modal-opened {
       display: block; }
 
 /* event-list */
-.event-list .container .section-content figure img {
-  display: block;
-  width: 100%; }
+.event-list .container .section-content .visible-sm {
+  display: block; }
+  .event-list .container .section-content .visible-sm > figure > img {
+    display: block;
+    width: 100%; }
+.event-list .container .section-content .visible-lg {
+  display: none; }
+@media (min-width: 1024px) {
+  .event-list .container .section-content .visible-sm {
+    display: none; }
+  .event-list .container .section-content .visible-lg {
+    display: block; }
+    .event-list .container .section-content .visible-lg > figure img {
+      width: 100%;
+      /*display: block;
+      max-width: auto;
+      margin: 0 auto;*/ } }
 
 /*# sourceMappingURL=board.css.map */

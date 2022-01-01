@@ -45,7 +45,7 @@
     {
       "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
       "css": "search",
-      "code": 59397,
+      "code": 57370,
       "src": "fontawesome"
     },
     {
@@ -179,6 +179,12 @@
       "css": "thumbs-up",
       "code": 59396,
       "src": "fontawesome"
+    },
+    {
+      "uid": "06a2fbb04dffecdb444936073cae9123",
+      "css": "thumbs-up-1",
+      "code": 59397,
+      "src": "linecons"
     }
   ]
 }

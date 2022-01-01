@@ -2677,17 +2677,34 @@ body {
                                 display: block;
                                 font-size: 14px;
                                 color: #333;
-                                line-height: 20px;
+                                line-height: 28px;
                                 font-weight: 400;
-                                padding: 10px 20px 20px 20px;
+                                padding: 10px 10px 20px 10px;
                                 text-align: right;
                                 > a {
                                     display: inline-block;
+                                    color: #f85254;
+                                    padding: 0 10px;
+                                    border-radius: 50px;
+                                    border: 1px solid #ddd;
+                                    background-color: #fff;
                                     @include transition();
+                                    i {
+                                        position: relative;
+                                        top: -1px;
+                                    }
+                                    span {
+                                        color: #333;
+                                    }
                                 }
                                 &.active {
                                     > a {
-                                        color: #f85254;
+                                        color: #fff;
+                                        border-color: #f85254;
+                                        background-color: #f85254;
+                                        span {
+                                            color: #fff;
+                                        }
                                     }
                                 }
                             }

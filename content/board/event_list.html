@@ -225,9 +225,26 @@
 						<h3>기획전</h3>
 					</div>
 					<div class="section-content">
-						<figure>
-						    <img src="/content/assets/images/sub/img_event.png" alt="">
-						</figure>
+						<div class="visible-sm">
+						    <figure>
+						        <img src="/content/assets/images/sub/img_event_promotion_sm.png" alt="" usemap="#event-map-mobile" class="images-map">
+						    </figure>
+                            
+                            <map name="event-map-mobile">
+                                <area target="_blank" alt="지금 바로 구매하기" title="" href="" coords="192,2976,201,2959,214,2949,525,2950,545,2962,549,2984,539,3006,518,3013,213,3013,196,2999" shape="poly">
+                                <area target="_blank" alt="지금 바로 가입하기" title="" href="" coords="34,4965,42,4944,64,4932,285,4933,304,4945,311,4967,303,4990,284,5002,57,5001,38,4988" shape="poly">
+                                <area target="_blank" alt="지금 바로 구매하기" title="" href="" coords="329,4967,338,4946,355,4934,659,4933,681,4945,688,4968,681,4988,661,5001,355,5001,337,4989" shape="poly">
+                            </map>
+						</div>
+						<div class="visible-lg">
+						    <figure>
+						        <img src="/content/assets/images/sub/img_event_promotion_lg.png" alt="" usemap="#event-map-pc" class="images-map">
+						    </figure>
+						    <map name="event-map-pc">
+                                <area target="" alt="" title="" href="" coords="121,2633,126,2621,135,2614,316,2615,326,2622,330,2634,326,2645,315,2653,139,2653,126,2647" shape="poly">
+                                <area target="" alt="" title="" href="" coords="348,2631,353,2619,362,2613,585,2613,595,2620,600,2633,594,2646,585,2651,364,2652,353,2643" shape="poly">
+                            </map>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -291,9 +308,11 @@
 		
 		<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 		<script src='/content/assets/js/common.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script> 
 		<script>
 			(function($){
-                
+                // images map 관련
+                $('.images-map').rwdImageMaps();
 			})(jQuery);
 		</script>
 	</body>
