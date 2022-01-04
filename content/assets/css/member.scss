@@ -688,7 +688,7 @@
             .btn-area {
                 text-align: center;
                 margin-top: 10px;
-                .btn-login {
+                .btn {
                     display: block;
                     width: 100%;
                     font-size: 14px;
@@ -697,6 +697,9 @@
                     line-height: 44px;
                     border-radius: 5px;
                     background-color: $kcolor;
+                    & ~ .btn {
+                        margin-top: 10px;
+                    }
                 }
                 > ul {
                     overflow: hidden;
