@@ -883,10 +883,10 @@ body {
 
 /* event-pop */
 .event-pop {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    z-index: 200;
+    z-index: 1;
     padding: 90px 10px;
     .pop-wrap {
         width: 94%;
@@ -931,6 +931,61 @@ body {
         top: 100px;
         left: 200px;
         margin: 0;
+    }
+}
+
+/* event-pop */
+.event-pop2 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 1;
+    display: none;
+    padding: 90px 10px;
+    .pop-wrap {
+        width: 94%;
+        margin: 0 auto;
+        max-width: 400px;
+        box-shadow: 10px 10px 50px #1a1a1a;
+        .pop-content {
+            overflow-x: auto;
+            a {
+                display: block;
+                img {
+                    display: block;
+                    max-width: 100%;
+                }
+            }
+        }
+        .pop-foot {
+            padding: 5px 10px;
+            overflow: hidden;
+            background-color: #000;
+            > label {
+                float: left;
+                font-size: 13px;
+                color: #fff;
+                line-height: 20px;
+                input[type="checkbox"] {
+                    position: relative;
+                    top: 1px;
+                    margin: 0;
+                }
+            }
+            .event-close2 {
+                float: right;
+                line-height: 20px;
+                font-size: 13px;
+                color: #fff;
+            }
+        }
+    }
+    @media(min-width: $lg) {
+        padding: 0;
+        top: 600px;
+        left: 200px;
+        margin: 0;
+        display: block;
     }
 }
 
