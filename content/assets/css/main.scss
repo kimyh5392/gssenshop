@@ -883,7 +883,7 @@ body {
 
 /* event-pop */
 .event-pop {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
@@ -936,7 +936,7 @@ body {
 
 /* event-pop */
 .event-pop2 {
-    position: absolute;
+    position: fixed;
     top: 100px;
     left: 0;
     z-index: 1;
@@ -981,11 +981,11 @@ body {
         }
     }
     @media(min-width: $lg) {
-        padding: 0;
-        top: 600px;
-        left: 200px;
-        margin: 0;
         display: block;
+        top: 100px;
+        left: 600px;
+        margin: 0;
+        padding: 0;
     }
 }
 
