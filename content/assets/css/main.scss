@@ -883,7 +883,7 @@ body {
 
 /* event-pop */
 .event-pop {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
@@ -936,7 +936,7 @@ body {
 
 /* event-pop */
 .event-pop2 {
-    position: fixed;
+    position: absolute;
     top: 100px;
     left: 0;
     z-index: 1;
