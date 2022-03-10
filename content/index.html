@@ -10,9 +10,29 @@
 		<title>gssenshop</title>
 	</head>
 	<body>
-
 		<!-- Header -->
 		<header id="header">
+            <!-- top-banner -->
+            <div class="top-banner">
+                <ul class="banner-slider">
+                    <li>
+                        <div class="container">
+                            <p>회원 가입시 <b>적립금 1000원</b> 받기1 <a href="#"><i class="icon-angle-right"></i></a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container">
+                            <p>회원 가입시 <b>적립금 1000원</b> 받기2 <a href="#"><i class="icon-angle-right"></i></a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container">
+                            <p>회원 가입시 <b>적립금 1000원</b> 받기3 <a href="#"><i class="icon-angle-right"></i></a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
 			<div class="container">
 				<h1 class="logo">
 				    <a href="/content/">
@@ -22,9 +42,27 @@
 				<div class="quick-menu">
                     <div class="category">
                         <ul>
-                            <li><a href="/content/about/about.html">ABOUT US</a></li>
-                            <li><a href="/content/shop/product_list.html">SHOP</a></li>
-                            <li><a href="/content/board/event_list.html">기획전</a></li>
+                            <li>
+                                <a href="/content/about/about.html">ABOUT US</a>
+                                <ul>
+                                    <li><a href="#">브랜드스토리</a></li>
+                                    <li><a href="#">주요 성분</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">PRODUCT</a>
+                            </li>
+                            <li>
+                                <a href="#">EVENT</a>
+                            </li>
+                            <li>
+                                <a href="#">COMMUNITY</a>
+                                <ul>
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">멤버십혜택</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                     <div class="search-area">
@@ -70,6 +108,12 @@
 					<button type="button" class="btn-nav-close">
 						<i class="icon-cancel"></i>
 					</button>
+					<p>
+					    아직 <b>지센샵</b> 회원이 아니신가요?<br><br>
+					    지쎈샵 회원 가입 하시면<br>
+					    즉시 사용 가능한 <b>1000원 적립금</b>을 드려요
+					</p>
+					<a href="#" class="btn-join">회원가입</a>
 				</div>
 				<div class="nav-body">
 					<ul>
@@ -101,12 +145,28 @@
 					</button>
 				</div>
 				<div class="my-content">
-					<div class="my-assets">
+				    <div class="my-benefit">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <b>쿠폰</b>
+                                    <p>5개</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b>적립금</b>
+                                    <p>1,000원</p>
+                                </a>
+                            </li>
+                        </ul>
+				    </div>
+					<!--<div class="my-assets">
 						<dl>
 							<dt>내 쿠폰</dt>
 							<dd>
 								<ul>
-									<!--<li>
+									<li>
 										<a href="#">
 											<dl>
 												<dt>적립금</dt>
@@ -121,7 +181,7 @@
 												<dd>0원</dd>
 											</dl>
 										</a>
-									</li>-->
+									</li>
 									<li>
 										<a href="/content/mypage/coupon.html">
 											<dl>
@@ -133,7 +193,7 @@
 								</ul>
 							</dd>
 						</dl>
-					</div>
+					</div>-->
 					<div class="my-order">
 						<dl>
 							<dt>내 주문현황</dt>
@@ -514,7 +574,7 @@
 			</div>
 		</footer>
 		
-		<!-- event-pop -->
+		<!-- event-pop 
 		<div class="event-pop">
 		    <div class="pop-wrap">
 		        <div class="pop-content">
@@ -529,9 +589,9 @@
 		            <label><input type="checkbox"> 오늘하루 보지않기</label>
 		        </div>
 		    </div>
-		</div>
+		</div>-->
 		
-		<!-- event-pop -->
+		<!-- event-pop 
 		<div class="event-pop2">
 		    <div class="pop-wrap">
 		        <div class="pop-content">
@@ -546,7 +606,7 @@
 		            <label><input type="checkbox"> 오늘하루 보지않기</label>
 		        </div>
 		    </div>
-		</div>
+		</div>-->
 		
 		
 		<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
@@ -576,6 +636,14 @@
                     slidesToScroll: 1,
                     autoplay: true,
                     autoplaySpeed: 4000,
+                });
+                
+                // banner-slider 관련
+                $('.banner-slider').slick({
+                    arrows: false,
+                    vertical: true,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
                 });
                 
                 // event-pop

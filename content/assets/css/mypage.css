@@ -811,13 +811,70 @@ section {
         line-height: 45px; } }
 
 /* my-shopping */
-.my-shopping .container .section-header p {
-  font-size: 14px;
-  color: #333;
-  font-weight: 300;
-  margin-top: 15px; }
-  .my-shopping .container .section-header p b {
-    font-weight: 500; }
+.my-shopping .container .section-header .usr-info {
+  position: relative;
+  padding-left: 80px; }
+  .my-shopping .container .section-header .usr-info p {
+    font-size: 14px;
+    color: #333;
+    font-weight: 300;
+    margin-top: 10px; }
+    .my-shopping .container .section-header .usr-info p b {
+      font-weight: 500; }
+  .my-shopping .container .section-header .usr-info small {
+    display: block;
+    font-size: 12px;
+    color: #333;
+    font-weight: 300;
+    margin-top: 15px; }
+  .my-shopping .container .section-header .usr-info figure {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 70px;
+    transform: translateY(-50%); }
+    .my-shopping .container .section-header .usr-info figure img {
+      display: block;
+      width: 50px;
+      margin: 0 auto; }
+    .my-shopping .container .section-header .usr-info figure figcaption {
+      font-size: 14px;
+      color: #333;
+      font-weight: 400;
+      margin-top: 10px;
+      text-align: center; }
+.my-shopping .container .section-header .benefit {
+  margin-top: 20px; }
+  .my-shopping .container .section-header .benefit > .box {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    /*background-image: url(/);*/
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; }
+    .my-shopping .container .section-header .benefit > .box ~ .box {
+      margin-top: 10px; }
+    .my-shopping .container .section-header .benefit > .box .top {
+      overflow: hidden; }
+      .my-shopping .container .section-header .benefit > .box .top b {
+        font-size: 16px;
+        color: #000;
+        font-weight: bold; }
+      .my-shopping .container .section-header .benefit > .box .top > a {
+        font-size: 13px;
+        color: #999;
+        font-weight: 400;
+        float: right;
+        border-bottom: 1px solid #999; }
+    .my-shopping .container .section-header .benefit > .box > strong {
+      display: block;
+      font-size: 30px;
+      color: #eb6100;
+      margin-top: 40px;
+      text-align: right; }
+      .my-shopping .container .section-header .benefit > .box > strong small {
+        font-size: 12px; }
 .my-shopping .container .section-content .my-order .article-header {
   font-size: 0; }
   .my-shopping .container .section-content .my-order .article-header h4 {
@@ -920,9 +977,44 @@ section {
             font-weight: 400;
             margin-top: 10px; }
 @media (min-width: 1024px) {
-  .my-shopping .container .section-header p {
-    font-size: 32px;
-    margin-top: 40px; }
+  .my-shopping .container .section-header {
+    display: table;
+    width: 100%;
+    table-layout: fixed; }
+    .my-shopping .container .section-header > div {
+      display: table-cell;
+      vertical-align: top; }
+      .my-shopping .container .section-header > div.usr-info {
+        width: 500px;
+        padding-left: 120px; }
+        .my-shopping .container .section-header > div.usr-info small {
+          font-size: 16px;
+          margin-top: 40px; }
+        .my-shopping .container .section-header > div.usr-info p {
+          font-size: 32px;
+          margin-top: 10px; }
+        .my-shopping .container .section-header > div.usr-info > figure {
+          top: 0;
+          transform: none;
+          width: 110px; }
+          .my-shopping .container .section-header > div.usr-info > figure img {
+            width: 100px; }
+          .my-shopping .container .section-header > div.usr-info > figure figcaption {
+            font-size: 16px; }
+      .my-shopping .container .section-header > div.benefit {
+        overflow: hidden; }
+        .my-shopping .container .section-header > div.benefit > .box {
+          float: left;
+          width: calc(50% - 10px);
+          margin-right: 10px; }
+          .my-shopping .container .section-header > div.benefit > .box:last-child {
+            margin: 0; }
+          .my-shopping .container .section-header > div.benefit > .box .top b {
+            font-size: 20px; }
+          .my-shopping .container .section-header > div.benefit > .box .top > a {
+            font-size: 16px; }
+          .my-shopping .container .section-header > div.benefit > .box strong {
+            font-size: 40px; }
   .my-shopping .container .section-content .my-order .article-header h4 {
     font-size: 20px; }
   .my-shopping .container .section-content .my-order .article-header small {
