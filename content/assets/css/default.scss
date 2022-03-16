@@ -435,6 +435,27 @@
 							}
 						}
 					}
+                    > ul {
+                        font-size: 0;
+                        margin: 10px 0;
+                        > li {
+                            display: inline-block;
+                            vertical-align: top;
+                            width: 33.333333333%;
+                            &:nth-of-type(3) ~ li {
+                                margin-top: 10px;
+                            }
+                            > a {
+                                display: block;
+                                font-size: 14px;
+						        color: #666;
+                                @include transition();
+                                &:hover {
+                                    color: $kcolor;
+                                }
+                            }
+                        }
+                    }
 				}
 			}
 			hr {

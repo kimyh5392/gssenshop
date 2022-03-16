@@ -4155,4 +4155,71 @@ body.reason-modal .modal-reason {
   .order-details .container .section-content > .btn-area {
     margin-top: 60px; } }
 
+/* my-benefit */
+.my-benefit .section-content .tab-menu {
+  text-align: center; }
+  .my-benefit .section-content .tab-menu > ul {
+    display: table;
+    width: 100%;
+    table-layout: fixed; }
+    .my-benefit .section-content .tab-menu > ul > li {
+      display: table-cell;
+      vertical-align: middle;
+      width: 50%; }
+      .my-benefit .section-content .tab-menu > ul > li > a {
+        font-size: 14px;
+        color: #000;
+        font-weight: 400;
+        line-height: 38px;
+        display: block;
+        border: 1px solid #ccc;
+        border-right: 0;
+        background-color: #fafafa; }
+      .my-benefit .section-content .tab-menu > ul > li.active > a {
+        border-bottom-color: #fff;
+        background-color: #fff; }
+      .my-benefit .section-content .tab-menu > ul > li:last-child > a {
+        border-right: 1px solid #ccc; }
+.my-benefit .section-content .tab-content .tab-pane {
+  display: none; }
+  .my-benefit .section-content .tab-content .tab-pane .table-wrap {
+    margin-top: 20px; }
+    .my-benefit .section-content .tab-content .tab-pane .table-wrap .table {
+      width: 100%; }
+      .my-benefit .section-content .tab-content .tab-pane .table-wrap .table thead tr th {
+        font-size: 12px;
+        color: #000;
+        padding: 15px 0;
+        font-weight: 500;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #ccc;
+        background-color: #fcfcfc; }
+      .my-benefit .section-content .tab-content .tab-pane .table-wrap .table tbody tr td {
+        font-size: 12px;
+        color: #666;
+        padding: 15px 0;
+        font-weight: 400;
+        border-bottom: 1px solid #ccc; }
+  .my-benefit .section-content .tab-content .tab-pane.active {
+    display: block; }
+.my-benefit .section-content .attention {
+  padding: 20px;
+  margin-top: 30px;
+  border: 1px solid #ccc; }
+  .my-benefit .section-content .attention > ul > li {
+    position: relative;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    line-height: 20px; }
+    .my-benefit .section-content .attention > ul > li:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      content: '- '; }
+    .my-benefit .section-content .attention > ul > li ~ li {
+      margin-top: 5px; }
+
 /*# sourceMappingURL=mypage.css.map */

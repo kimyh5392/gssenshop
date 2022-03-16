@@ -219,19 +219,97 @@
 		
 		<!-- Content -->
 		<main id="content">
-			<section class="coupon">
+			<section class="my-benefit">
 			    <div class="container">
 			        <div class="section-header">
 			            <h3>적립금 &amp; 쿠폰 내역</h3>
 			        </div>
 			        <div class="section-content">
-                        <h4>적립금 &amp; 쿠폰 내역</h4>
                         <nav class="tab-menu">
                             <ul>
-                                <li><a href="#ch1">적입내역</a></li>
-                                <li><a href="#ch2">사용내</a></li>
+                                <li class="active"><a href="#ch1">적립내역</a></li>
+                                <li><a href="#ch2">사용내역</a></li>
                             </ul>
                         </nav>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="ch1">
+                                <div class="table-wrap">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>날짜</th>
+                                                <th>적립내역</th>
+                                                <th>적립</th>
+                                                <th>잔여</th>
+                                                <th>소멸예정</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>2022-03-08</td>
+                                                <td>회원가입 포인트</td>
+                                                <td>+1,000P</td>
+                                                <td>1,000P</td>
+                                                <td>2023-03-08</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <nav class="pagination">
+                                        <ul>
+                                            <li class="first"><a href="#"><i class="icon-angle-double-left"></i></a></li>
+                                            <li class="prev"><a href="#"><i class="icon-angle-left"></i></a></li>
+                                            <li class="active"><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                            <li><a href="#">5</a></li>
+                                            <li class="next"><a href="#"><i class="icon-angle-right"></i></a></li>
+                                            <li class="last"><a href="#"><i class="icon-angle-double-right"></i></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ch2">
+                                <div class="table-wrap">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>날짜</th>
+                                                <th>사용내역</th>
+                                                <th>사용</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <nav class="pagination">
+                                        <ul>
+                                            <li class="first"><a href="#"><i class="icon-angle-double-left"></i></a></li>
+                                            <li class="prev"><a href="#"><i class="icon-angle-left"></i></a></li>
+                                            <li class="active"><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                            <li><a href="#">5</a></li>
+                                            <li class="next"><a href="#"><i class="icon-angle-right"></i></a></li>
+                                            <li class="last"><a href="#"><i class="icon-angle-double-right"></i></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="attention">
+                            <ul>
+                                <li>포인트는 포인트를 지급하는 상품을 구매하신 후 구매확정 된 이후에 자동으로 적립 됩니다.</li>
+                                <li>결제 시 포인트 가용금액을 확인하신 후 잔여 포인트를 100원단위로 기입하여 결제하실 수 있습니다.</li>
+                                <li>포인트는 현금과 동일하게 결제시 사용하실 수 있으며 유효기간은 적립일로부터 1년 입니다.</li>
+                            </ul>
+                        </div>
 			        </div>
 			    </div>
 			</section>
@@ -297,7 +375,14 @@
 		<script src='/content/assets/js/common.js'></script>
 		<script>
 			(function($){
-                
+                // 탭 메뉴
+				$(document).on('click','.tab-menu > ul > li > a', function(e){
+					$('.tab-menu > ul > li a').parent().removeClass('active');
+					$('.tab-content > .tab-pane').removeClass('active');
+					$(this).parent().addClass('active');
+					$($(this).attr('href')).addClass('active');
+					e.preventDefault();
+				});
 			})(jQuery);
 		</script>
 	</body>
