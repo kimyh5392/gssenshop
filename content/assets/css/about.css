@@ -820,10 +820,16 @@ body {
 #header .container .quick-menu > div a, #header .container .quick-menu > div button {
   color: #fff; }
 @media (min-width: 1024px) {
-  #header .container .quick-menu > div.category > ul > li > a {
-    color: #fff; }
-  #header .container .quick-menu > div.category > ul > li > ul > li > a {
-    color: #fff; }
+  #header .container .quick-menu > div.category > ul > li {
+    /*> ul {
+        > li {
+            > a {
+                color: #fff;
+            }
+        }
+    }*/ }
+    #header .container .quick-menu > div.category > ul > li > a {
+      color: #fff; }
   #header .container .quick-menu > div.search-area .form-group {
     border-bottom: 1px solid #fff; }
     #header .container .quick-menu > div.search-area .form-group > div .form-control {

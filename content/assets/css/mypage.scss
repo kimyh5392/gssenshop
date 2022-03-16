@@ -49,12 +49,13 @@
                     padding: 20px;
                     border-radius: 10px;
                     background-color: #f2f2f2;
-                    /*background-image: url(/);*/
+                    background-image: url(/content/assets/images/sub/bg_coupon.png);
                     background-repeat: no-repeat;
                     background-position: 50% 50%;
                     background-size: cover;
                     & ~ .box {
                         margin-top: 10px;
+                        background-image: url(/content/assets/images/sub/bg_saved_money.png);
                     }
                     .top {
                          overflow: hidden;
