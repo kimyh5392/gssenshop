@@ -149,7 +149,7 @@ a, button {
         .jumbotron .jumbo-slider .slick-dots > li.slick-active > button {
           background-color: #333; }
   @media (min-width: 1024px) {
-    .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-1 > a4 {
+    .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-1 > a {
       background-image: url(/content/assets/images/main/bg_jumbotron01_lg.jpg); }
     .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-2 > a {
       background-image: url(/content/assets/images/main/bg_jumbotron02_lg.jpg); }
