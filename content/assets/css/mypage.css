@@ -4196,10 +4196,24 @@ body.reason-modal .modal-reason {
         background-color: #fcfcfc; }
       .my-benefit .section-content .tab-content .tab-pane .table-wrap .table tbody tr td {
         font-size: 12px;
-        color: #666;
+        color: #333;
+        text-align: center;
         padding: 15px 0;
         font-weight: 400;
         border-bottom: 1px solid #ccc; }
+        .my-benefit .section-content .tab-content .tab-pane .table-wrap .table tbody tr td:nth-of-type(2) ~ td {
+          text-align: right; }
+      .my-benefit .section-content .tab-content .tab-pane .table-wrap .table.type-2 tbody td {
+        text-align: center !important; }
+    .my-benefit .section-content .tab-content .tab-pane .table-wrap .none-item {
+      border-bottom: 1px solid #ccc; }
+      .my-benefit .section-content .tab-content .tab-pane .table-wrap .none-item p {
+        display: block;
+        font-weight: 400;
+        text-align: center;
+        font-size: 16px;
+        color: #000;
+        line-height: 60px; }
   .my-benefit .section-content .tab-content .tab-pane.active {
     display: block; }
 .my-benefit .section-content .attention {
@@ -4221,5 +4235,19 @@ body.reason-modal .modal-reason {
       content: '- '; }
     .my-benefit .section-content .attention > ul > li ~ li {
       margin-top: 5px; }
+@media (min-width: 1024px) {
+  .my-benefit .section-content .tab-menu > ul > li > a {
+    font-size: 16px;
+    line-height: 46px; }
+  .my-benefit .section-content .tab-content {
+    margin-top: 30px; }
+    .my-benefit .section-content .tab-content .tab-pane .table-wrap .table thead tr th {
+      font-size: 16px; }
+    .my-benefit .section-content .tab-content .tab-pane .table-wrap .table tbody tr td {
+      font-size: 16px;
+      padding: 15px 20px; }
+  .my-benefit .section-content .attention {
+    margin-top: 60px;
+    padding: 30px; } }
 
 /*# sourceMappingURL=mypage.css.map */
