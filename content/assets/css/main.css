@@ -104,6 +104,10 @@ a, button {
       background-image: url(/content/assets/images/main/bg_jumbotron02_sm.jpg); }
     .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-3 > a {
       background-image: url(/content/assets/images/main/bg_jumbotron03_sm.jpg); }
+    .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-4 > a {
+      background-image: url(/content/assets/images/main/bg_jumbotron04_sm.jpg); }
+    .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-5 > a {
+      background-image: url(/content/assets/images/main/bg_jumbotron05_sm.jpg); }
     .jumbotron .jumbo-slider .slick-arrow {
       position: absolute;
       top: 50%;
@@ -145,12 +149,16 @@ a, button {
         .jumbotron .jumbo-slider .slick-dots > li.slick-active > button {
           background-color: #333; }
   @media (min-width: 1024px) {
-    .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-1 > a {
+    .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-1 > a4 {
       background-image: url(/content/assets/images/main/bg_jumbotron01_lg.jpg); }
     .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-2 > a {
       background-image: url(/content/assets/images/main/bg_jumbotron02_lg.jpg); }
     .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-3 > a {
       background-image: url(/content/assets/images/main/bg_jumbotron03_lg.jpg); }
+    .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-4 > a {
+      background-image: url(/content/assets/images/main/bg_jumbotron04_lg.jpg); }
+    .jumbotron .jumbo-slider .slick-list .slick-track .slick-slide.slide-5 > a {
+      background-image: url(/content/assets/images/main/bg_jumbotron05_lg.jpg); }
     .jumbotron .jumbo-slider .slick-arrow:before {
       font-size: 60px; }
     .jumbotron .jumbo-slider .slick-arrow.slick-prev {

@@ -47,6 +47,16 @@
                             background-image: url(/content/assets/images/main/bg_jumbotron03_sm.jpg);
                         }
                     }
+                    &.slide-4 {
+                        > a {
+                            background-image: url(/content/assets/images/main/bg_jumbotron04_sm.jpg);
+                        }
+                    }
+                    &.slide-5 {
+                        > a {
+                            background-image: url(/content/assets/images/main/bg_jumbotron05_sm.jpg);
+                        }
+                    }
                 }
             }
         }
@@ -109,7 +119,7 @@
                 .slick-track {
                     .slick-slide {
                         &.slide-1 {
-                            > a {
+                            > a4{
                                 background-image: url(/content/assets/images/main/bg_jumbotron01_lg.jpg);
                             }
                         }
@@ -121,6 +131,16 @@
                         &.slide-3 {
                             > a {
                                 background-image: url(/content/assets/images/main/bg_jumbotron03_lg.jpg);
+                            }
+                        }
+                        &.slide-4 {
+                            > a {
+                                background-image: url(/content/assets/images/main/bg_jumbotron04_lg.jpg);
+                            }
+                        }
+                        &.slide-5 {
+                            > a {
+                                background-image: url(/content/assets/images/main/bg_jumbotron05_lg.jpg);
                             }
                         }
                     }
