@@ -379,9 +379,10 @@
                             }
                         }
                         .details {
+                            position: relative;
                             text-align: right;
                             table-layout: fixed;
-                            padding: 30px 20px 20px;
+                            padding: 47px 20px 20px;
                             h4 {
                                 font-size: 25px;
                                 display: block;
@@ -403,6 +404,12 @@
                                 font-size: 20px;
                                 line-height: 30px;
                                 margin: 0;
+                            }
+                            p {
+                                position: absolute;
+                                top: 30px;
+                                left: 20px;
+                                margin-bottom: 0;
                             }
                         }
                         & ~ li {

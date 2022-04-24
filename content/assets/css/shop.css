@@ -1070,9 +1070,10 @@ section {
           .product-list .container .section-content .item-list > ul > li > .item > a > img.visible-lg {
             display: block; }
           .product-list .container .section-content .item-list > ul > li .details {
+            position: relative;
             text-align: right;
             table-layout: fixed;
-            padding: 30px 20px 20px; }
+            padding: 47px 20px 20px; }
             .product-list .container .section-content .item-list > ul > li .details h4 {
               font-size: 25px;
               display: block;
@@ -1092,6 +1093,11 @@ section {
               font-size: 20px;
               line-height: 30px;
               margin: 0; }
+            .product-list .container .section-content .item-list > ul > li .details p {
+              position: absolute;
+              top: 30px;
+              left: 20px;
+              margin-bottom: 0; }
           .product-list .container .section-content .item-list > ul > li ~ li {
             margin-top: 0; }
           .product-list .container .section-content .item-list > ul > li:nth-of-type(4) ~ li {

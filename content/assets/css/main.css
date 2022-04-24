@@ -348,9 +348,10 @@ a, button {
             .shop .container .section-content > ul > li > .item > a > img.visible-lg {
               display: block; }
             .shop .container .section-content > ul > li .details {
+              position: relative;
               text-align: right;
               table-layout: fixed;
-              padding: 30px 20px 20px; }
+              padding: 47px 20px 20px; }
               .shop .container .section-content > ul > li .details h4 {
                 font-size: 25px;
                 display: block;
@@ -370,6 +371,11 @@ a, button {
                 font-size: 20px;
                 line-height: 30px;
                 margin: 0; }
+              .shop .container .section-content > ul > li .details p {
+                position: absolute;
+                top: 30px;
+                left: 20px;
+                margin-bottom: 0; }
             .shop .container .section-content > ul > li ~ li {
               margin-top: 0; }
             .shop .container .section-content > ul > li:nth-of-type(4) ~ li {
