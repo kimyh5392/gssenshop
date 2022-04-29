@@ -261,28 +261,26 @@
                 .slick-slide {
                     outline: none;
                     background-color: #667E36;
-                    .container {
-                        padding: 0 !important;
-                        p {
-                            font-size: 15px;
-                            color: #fff;
-                            font-weight: 400;
-                            line-height: 34px;
-                            > a {
-                                display: inline-block;
-                                width: 20px;
-                                height: 20px;
-                                text-align: center;
-                                font-size: 13px;
-                                color: #04814f;
-                                border-radius: 50%;
-                                line-height: 20px;
-                                margin-left: 10px;
-                                background-color: #fff;
-                                i {
-                                    position: relative;
-                                    top: -1px;
-                                }
+                    > a {
+                        display: block;
+                        font-size: 15px;
+                        color: #fff;
+                        font-weight: 400;
+                        line-height: 34px;
+                        > p {
+                            display: inline-block;
+                            width: 20px;
+                            height: 20px;
+                            text-align: center;
+                            font-size: 13px;
+                            color: #04814f;
+                            border-radius: 50%;
+                            line-height: 20px;
+                            margin-left: 10px;
+                            background-color: #fff;
+                            i {
+                                position: relative;
+                                top: -1px;
                             }
                         }
                     }

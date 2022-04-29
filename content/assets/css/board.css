@@ -2248,4 +2248,24 @@ body.modal-opened {
       max-width: auto;
       margin: 0 auto;*/ } }
 
+/* purchase */
+.purchase .container .section-content > figure img {
+  margin: 0 auto;
+  max-width: 100%;
+  display: block; }
+
+/* membership-guide */
+.membership-guide .container .section-content > figure img.visible-sm {
+  display: block;
+  width: 100%; }
+.membership-guide .container .section-content > figure img.visible-lg {
+  display: none; }
+@media (min-width: 1024px) {
+  .membership-guide .container .section-content > figure img.visible-sm {
+    display: none; }
+  .membership-guide .container .section-content > figure img.visible-lg {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto; } }
+
 /*# sourceMappingURL=board.css.map */

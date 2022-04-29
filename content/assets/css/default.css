@@ -318,27 +318,26 @@ a, button {
   .top-banner .banner-slider .slick-list .slick-track .slick-slide {
     outline: none;
     background-color: #667E36; }
-    .top-banner .banner-slider .slick-list .slick-track .slick-slide .container {
-      padding: 0 !important; }
-      .top-banner .banner-slider .slick-list .slick-track .slick-slide .container p {
-        font-size: 15px;
-        color: #fff;
-        font-weight: 400;
-        line-height: 34px; }
-        .top-banner .banner-slider .slick-list .slick-track .slick-slide .container p > a {
-          display: inline-block;
-          width: 20px;
-          height: 20px;
-          text-align: center;
-          font-size: 13px;
-          color: #04814f;
-          border-radius: 50%;
-          line-height: 20px;
-          margin-left: 10px;
-          background-color: #fff; }
-          .top-banner .banner-slider .slick-list .slick-track .slick-slide .container p > a i {
-            position: relative;
-            top: -1px; }
+    .top-banner .banner-slider .slick-list .slick-track .slick-slide > a {
+      display: block;
+      font-size: 15px;
+      color: #fff;
+      font-weight: 400;
+      line-height: 34px; }
+      .top-banner .banner-slider .slick-list .slick-track .slick-slide > a > p {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        font-size: 13px;
+        color: #04814f;
+        border-radius: 50%;
+        line-height: 20px;
+        margin-left: 10px;
+        background-color: #fff; }
+        .top-banner .banner-slider .slick-list .slick-track .slick-slide > a > p i {
+          position: relative;
+          top: -1px; }
 @media (min-width: 1024px) {
   .top-banner .banner-slider .slick-list .slick-track .slick-slide .container p {
     line-height: 40px; }
